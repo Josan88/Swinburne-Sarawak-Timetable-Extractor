@@ -367,39 +367,44 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
         
-        // Sort events by date and time
-        allEvents.sort((a, b) => a.start - b.start);
-        
         // Group by date
         const eventsByDate = {};
         
         allEvents.forEach(event => {
-            const dateStr = event.date.toDateString();
-            if (!eventsByDate[dateStr]) {
-                eventsByDate[dateStr] = [];
+            // Use day of the week (0-6) as the key for grouping
+            const dayOfWeek = event.start.getDay(); 
+            if (!eventsByDate[dayOfWeek]) {
+                eventsByDate[dayOfWeek] = [];
             }
-            eventsByDate[dateStr].push(event);
+            eventsByDate[dayOfWeek].push(event);
         });
         
-        // Display events (show up to 10 dates)
-        const dates = Object.keys(eventsByDate).slice(0, 10);
+        // Display events, sorted by day of the week (Sun=0, Mon=1, ...)
+        const days = Object.keys(eventsByDate).sort();
         
-        if (dates.length === 0) {
+        if (days.length === 0) {
             timetablePreview.innerHTML = '<p class="placeholder-text">No events to display. Please select group(s) for your courses.</p>';
             return;
         }
         
-        dates.forEach(date => {
+        const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        
+        days.forEach(dayIndex => {
+            const dayName = dayNames[parseInt(dayIndex)];
             const dateHeading = document.createElement('h3');
-            dateHeading.textContent = date;
+            dateHeading.textContent = dayName;
             timetablePreview.appendChild(dateHeading);
             
-            eventsByDate[date].forEach(event => {
+            // Sort events within the day by start time
+            eventsByDate[dayIndex].sort((a, b) => a.start - b.start);
+            
+            eventsByDate[dayIndex].forEach(event => {
                 const eventElement = document.createElement('div');
                 eventElement.className = 'event';
                 
                 const timeStr = `${formatTime(event.start)} - ${formatTime(event.end)}`;
                 
+                // No need to show the day again within the event details
                 eventElement.innerHTML = `
                     <div class="event-time">${timeStr}</div>
                     <div class="event-description">${event.description}</div>
@@ -409,12 +414,10 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
         
-        // Add note if more dates are available
-        if (Object.keys(eventsByDate).length > 10) {
-            const moreEvents = document.createElement('p');
-            moreEvents.textContent = `... and ${Object.keys(eventsByDate).length - 10} more dates`;
-            moreEvents.className = 'more-events-note';
-            timetablePreview.appendChild(moreEvents);
+        // Remove the "more dates" note as we now show by day of the week
+        const moreEventsNote = timetablePreview.querySelector('.more-events-note');
+        if (moreEventsNote) {
+            moreEventsNote.remove();
         }
     }
     
