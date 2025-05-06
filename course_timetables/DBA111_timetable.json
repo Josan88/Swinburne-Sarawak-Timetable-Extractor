@@ -1,0 +1,271 @@
+{
+    "DataList": [
+        {
+            "Id": 0,
+            "EventDate": "2025-04-27T00:00:00",
+            "EventStartTime": "2025-04-27T09:00:00",
+            "EventEndTime": "2025-04-27T12:00:00",
+            "EventDescription": "CSM80013 - TU1 - 01, Jeremy Chun Yaw Lu; E611 - 03/09",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-28T00:00:00",
+            "EventStartTime": "2025-04-28T14:00:00",
+            "EventEndTime": "2025-04-28T16:00:00",
+            "EventDescription": "QSD229 - LE1 - 01, Ngie Hing Wong; E611 - 03/03 to 04/07, 04/21 to 05/26",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-28T00:00:00",
+            "EventStartTime": "2025-04-28T15:30:00",
+            "EventEndTime": "2025-04-28T17:30:00",
+            "EventDescription": "CSS201 - LE1 - 01, Jasmin Ze Kee Chu; G407 - 03/03 to 04/07, 04/21 to 05/26",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-29T00:00:00",
+            "EventStartTime": "2025-04-29T08:00:00",
+            "EventEndTime": "2025-04-29T11:00:00",
+            "EventDescription": "MDA30012 - LE1 - 01, Christina Amanda ChuehPing Yin; A316 - 03/04 to 04/08, 04/22 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-29T00:00:00",
+            "EventStartTime": "2025-04-29T08:30:00",
+            "EventEndTime": "2025-04-29T10:30:00",
+            "EventDescription": "CSS101 - LE1 - 01, Linda Lin Juan Wong; G603 - 03/04 to 04/08, 04/22 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-29T00:00:00",
+            "EventStartTime": "2025-04-29T10:00:00",
+            "EventEndTime": "2025-04-29T12:00:00",
+            "EventDescription": "EEE40015 - LE1 - 01, Jalal Tavalaei; B511B512 - 03/04 to 04/08, 04/22 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-29T00:00:00",
+            "EventStartTime": "2025-04-29T13:30:00",
+            "EventEndTime": "2025-04-29T15:30:00",
+            "EventDescription": "CSS201 - LA1 - 01, Jasmin Ze Kee Chu; A312 - 03/04 to 04/08, 04/22 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-29T00:00:00",
+            "EventStartTime": "2025-04-29T14:00:00",
+            "EventEndTime": "2025-04-29T16:00:00",
+            "EventDescription": "CEE30002 - LE1 - 01, Jia Chi Lai, Yusak Hartanto, Jia Chi Lai; B407 - 03/04 to 04/08, 04/22 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-29T00:00:00",
+            "EventStartTime": "2025-04-29T15:30:00",
+            "EventEndTime": "2025-04-29T17:30:00",
+            "EventDescription": "CSS201 - LA1 - 02, Jasmin Ze Kee Chu; A312 - 03/04 to 04/08, 04/22 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-30T00:00:00",
+            "EventStartTime": "2025-04-30T08:00:00",
+            "EventEndTime": "2025-04-30T10:00:00",
+            "EventDescription": "CSS101 - LA1 - 01, Linda Lin Juan Wong; G518 - 03/05 to 04/09, 04/23 to 05/28",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-30T00:00:00",
+            "EventStartTime": "2025-04-30T08:00:00",
+            "EventEndTime": "2025-04-30T11:00:00",
+            "EventDescription": "CEE30002 - LA1 - 01, Yusak Hartanto, Jia Chi Lai; B606 - 05/07 to 05/21",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-30T00:00:00",
+            "EventStartTime": "2025-04-30T08:00:00",
+            "EventEndTime": "2025-04-30T11:00:00",
+            "EventDescription": "DDD30013 - LA1 - 01, Mei Yuan Law; A202 - 03/05 to 04/09, 04/23 to 05/28",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-30T00:00:00",
+            "EventStartTime": "2025-04-30T10:00:00",
+            "EventEndTime": "2025-04-30T12:00:00",
+            "EventDescription": "CSS101 - LA1 - 02, Linda Lin Juan Wong; G518 - 03/05 to 03/12",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-30T00:00:00",
+            "EventStartTime": "2025-04-30T10:00:00",
+            "EventEndTime": "2025-04-30T12:00:00",
+            "EventDescription": "EEE40015 - LA1 - 01, Jalal Tavalaei; E218 - 04/30 to 05/07",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-30T00:00:00",
+            "EventStartTime": "2025-04-30T10:00:00",
+            "EventEndTime": "2025-04-30T12:00:00",
+            "EventDescription": "EEE40015 - TU1 - 01, Jalal Tavalaei; B414 - 03/12 to 04/09, 04/23, 05/14, 05/28",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-30T00:00:00",
+            "EventStartTime": "2025-04-30T14:00:00",
+            "EventEndTime": "2025-04-30T16:00:00",
+            "EventDescription": "CSS201 - LA1 - 03, Jasmin Ze Kee Chu; G518 - 03/05 to 04/09, 04/23 to 05/28",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-30T00:00:00",
+            "EventStartTime": "2025-04-30T17:00:00",
+            "EventEndTime": "2025-04-30T18:00:00",
+            "EventDescription": "CEE30002 - LE2 - 01, Jia Chi Lai, Yusak Hartanto, Jia Chi Lai; B215 - 03/05 to 04/09, 04/23 to 05/28",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-01T00:00:00",
+            "EventStartTime": "2025-05-01T08:30:00",
+            "EventEndTime": "2025-05-01T10:30:00",
+            "EventDescription": "DBA111 - LE1 - 01, Nelson Wei Pang Ong; B006 - 03/06 to 04/10, 04/24 to 05/29",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-01T00:00:00",
+            "EventStartTime": "2025-05-01T12:00:00",
+            "EventEndTime": "2025-05-01T15:00:00",
+            "EventDescription": "QSD229 - TU1 - 01, Ngie Hing Wong; E611 - 03/06 to 04/10, 04/24 to 05/29",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-01T00:00:00",
+            "EventStartTime": "2025-05-01T13:30:00",
+            "EventEndTime": "2025-05-01T15:30:00",
+            "EventDescription": "DBA111 - TU1 - 02, Nelson Wei Pang Ong; G707 - 03/06 to 04/10, 04/24 to 05/29",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-01T00:00:00",
+            "EventStartTime": "2025-05-01T20:00:00",
+            "EventEndTime": "2025-05-01T22:00:00",
+            "EventDescription": "CSM80013 - LE1 - 01, Jeremy Chun Yaw Lu; E611 - 03/06 to 03/13",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-02T00:00:00",
+            "EventStartTime": "2025-05-02T08:00:00",
+            "EventEndTime": "2025-05-02T10:00:00",
+            "EventDescription": "CEE30002 - TU1 - 01, Jia Chi Lai, Yusak Hartanto, Jia Chi Lai; B407 - 03/07 to 04/11, 04/25 to 05/30",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-02T00:00:00",
+            "EventStartTime": "2025-05-02T10:00:00",
+            "EventEndTime": "2025-05-02T12:00:00",
+            "EventDescription": "DBA111 - TU1 - 03, Nelson Wei Pang Ong; G505 - 03/21 to 04/11, 04/25; G707 - 03/07 to 03/14",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-02T00:00:00",
+            "EventStartTime": "2025-05-02T19:00:00",
+            "EventEndTime": "2025-05-02T22:00:00",
+            "EventDescription": "CVE80001 - LE1 - 01, Ngie Hing Wong; A216 - 03/07 to 04/11, 04/25 to 05/30",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        }
+    ],
+    "ServiceResult": 0,
+    "ErrorMessage": null,
+    "ExtendedToken": "f3ksI93w7dangJn4GR1JUwB6HenX3YLfWC6ZDF65rzkM0s+QoFDmv7+K/EJ2EcSmiN6dnCDPc6ZYdN4MXF4T1ZTQqDObHDvVaZb27k3v+yyJYtEFkCcYIikTU3TkV10Gc7uuz4UqPe/8mn7utGtbCSB7gMAsLpjuhL7cvpbioH3Vmx3AevjN7zw9HDc4c7UcqG3TLcXxNCeQz9nKBvPKJCVikkIP8uKSgQlhOdCRV5HGpAhKpVTq3QPWBSS0bqCi4OG54RWhe8YUjnjy05d6HUP5CL9zhRVLEfon4ij7LUljR8anGzDvzjkdKdNFnXxrDsOqprwar4df9baHZjaxIok+uEM1vIC+8owCABU9kgSa1lk/FHVBRjDAfvtYygHtNw3/dnxlvjl3Q4vM/Ur8Ye00+DJQmK6FUlW0XHJSwfazvsiCyhGQgVcZFCZ9avzl2RxfKq4owV31X/xzkiLhdWVz59wkl6BR3hjD1YAiGuHW8y304kKeVRiiwodHxm4mil1oN+PPYdIhq5tekQ353MxeKWpJAkaTRpcvwgzDIj9hBuuw2cCp1jIVyf5sXFSvKawxzxFlSfjSC8TDn3Hcbw+eEXJaHZh/4CAz76VUuqAVvH6eYe7lHCUQQJCu4ACeFwIcjL/WzXNW5pGsFoalmKDsfUYoFQ52F/HR+r14PUZY2AOU2xMN7094e18vv8JvsRepJSVXRdQRJs1InjkOgaEl4fpZOJi1hlHL9+DIrX2qB2k2N3RT2ZPonlCxCfMsIbb5kn1YVteJg1bQmqJW/AN+xo63+UPvsSx0HAaqk3AiDcCcYk+NLcy69SuKaQPiFgh6Td7KAcCL81PwHnqIJ8sZnf1q8O6syhFCh589FTmK75FsNZXwkOr1LZIZ0ad4SQJz8Yb/2pO1AzEF91jpbdI7CiSKuoE12Y/GH4Ywms1zW2eJUul6K97rZGrnTWUWGH40GrPQKKXEsJ0/uF8bekqb3XNXJuC7ECSwGdfq2KRxlMSWSvUvZ+TyCIco+E0U5ai1qekEUaEo6Rp0FskpN5H7SqqPoFL4E5y6JHLWueURNmlXcOgljpqzmX6iRJh3HORAaMcHucUc7jnTUNZAn5dD83rOlBAlKutrA1b6dRyPga07Ilh0wXJVZHpK/Kxw/Z2Yuqj/JLPxwbVUp+oLyrye1zHW6bh4VJRbze0U6zkZkPl28cXSnjZxgovbJSB/B5po8YeM2PXN2s1lEHSUxO6nj6x8qZYt84nRnNNZzZrIwgYYa3aZP/LjIfp7xwKOQHC77ZSnra3Tz4nRRtgXJfqMFysCK74ireh37snhDnJt3FaGXCL0d7U5k7VFhecPB8y/70omVM+TwvaB+56NJ0RHPeogJcJAmOTpzXmUfJuRU+CBFr0ZATQ4zkq8IHntmNo7Fm0s8bGOX2mPQctgaR/WWtQkF/HHKNtFpHMIt4Fa8nrPS4a6v+W8wEJEC0LOG+xEY/6UQ7MjAxTEfW3sFTjuD5quLCfy3red01p5VW1Qfv5MPRaJgDWl6vIQ6Fg2HAqVnxckmjUqxoKo76L0Jvch2bZ1Ncbi32I5cvqmUBOlJf/QSQFqWcXd5GzslyvTV1QxAzs032jIq8JGT8ZycsBIMa48XpYDeu4kTEvjKOhdToJN90/U9njqtcVkBreRsRd0m9gKW2B2Y4eAZBDAuOeMI4T5u5bYOv7F0s8QH0UteU5Z/yw0ytNyUjtEpsFvxaPO9oiZT9zK7ebhW3dRgStkLfVgIKBES0iz2eSmkxQRaDleP9wQmYcicafnSnKzU8eg9fjfHYCwligFwxa0C4ennFnP0PgjXh8a58jYNSqohDzup98S0lsF4jlj9fvDrFDx1vganqVZUhyhNjD3jqy9j3NH+l0PVJxk4057UA7I/zeMy+MXSV5QRX5jTsBqXOUJD1TJWOHwzhiCP6j0ow=="
+}

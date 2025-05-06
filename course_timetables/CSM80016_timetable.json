@@ -1,0 +1,260 @@
+{
+    "DataList": [
+        {
+            "Id": 0,
+            "EventDate": "2025-04-27T00:00:00",
+            "EventStartTime": "2025-04-27T13:00:00",
+            "EventEndTime": "2025-04-27T16:00:00",
+            "EventDescription": "CSM80006 - TU1 - 01, Judy Let Hui Tan; E611 - 03/09 to 03/16",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-28T00:00:00",
+            "EventStartTime": "2025-04-28T09:00:00",
+            "EventEndTime": "2025-04-28T11:00:00",
+            "EventDescription": "SOC10005 - LE1 - 01, Moritz Mueller; B506 - 03/03 to 04/07, 04/21 to 05/26",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-28T00:00:00",
+            "EventStartTime": "2025-04-28T16:00:00",
+            "EventEndTime": "2025-04-28T18:00:00",
+            "EventDescription": "CEE30008 - LE1 - 01, LockHei Ngu; B508 - 03/03 to 04/07, 04/21 to 05/26",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-28T00:00:00",
+            "EventStartTime": "2025-04-28T16:00:00",
+            "EventEndTime": "2025-04-28T18:00:00",
+            "EventDescription": "ENG20009 - LA1 - 03, Evon WanTing Lim, Hudyjaya Siswojo; E505 - 03/03 to 04/07, 04/21 to 05/26",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-28T00:00:00",
+            "EventStartTime": "2025-04-28T20:00:00",
+            "EventEndTime": "2025-04-28T22:00:00",
+            "EventDescription": "CSM80006 - LE1 - 01, Judy Let Hui Tan; E611 - 03/03 to 03/17",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-29T00:00:00",
+            "EventStartTime": "2025-04-29T08:00:00",
+            "EventEndTime": "2025-04-29T11:00:00",
+            "EventDescription": "CEE30008 - LA1 - 01, Daniel Nyuin Anak Alfred Damu, LockHei Ngu; B605 - 03/04 to 04/08, 04/22 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-29T00:00:00",
+            "EventStartTime": "2025-04-29T10:00:00",
+            "EventEndTime": "2025-04-29T12:00:00",
+            "EventDescription": "ENG20009 - LE1 - 01, Evon WanTing Lim, Hudyjaya Siswojo; B209B218 - 03/04 to 04/08, 04/22 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-29T00:00:00",
+            "EventStartTime": "2025-04-29T14:00:00",
+            "EventEndTime": "2025-04-29T17:00:00",
+            "EventDescription": "ENV30001 - LE1 - 01, Alwi Nurmadi Widyananda, Moritz Mueller, Moritz Mueller, Alwi Nurmadi Widyananda; B516 - 03/04 to 04/08, 04/22 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-29T00:00:00",
+            "EventStartTime": "2025-04-29T15:00:00",
+            "EventEndTime": "2025-04-29T17:00:00",
+            "EventDescription": "ENG30002 - LE1 - 01, Almon WeiYen Chai; B406 - 03/04 to 04/08, 04/22 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-30T00:00:00",
+            "EventStartTime": "2025-04-30T08:00:00",
+            "EventEndTime": "2025-04-30T10:00:00",
+            "EventDescription": "ENG20009 - LA1 - 02, Evon WanTing Lim, Hudyjaya Siswojo; E505 - 03/05 to 04/09, 04/23 to 05/28",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-30T00:00:00",
+            "EventStartTime": "2025-04-30T08:00:00",
+            "EventEndTime": "2025-04-30T10:00:00",
+            "EventDescription": "TNE30018 - LE1 - 01, Khaled Yahya Mohamed Mahmoud El Karazle; B406 - 03/05 to 04/09, 04/23 to 05/28",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-30T00:00:00",
+            "EventStartTime": "2025-04-30T11:00:00",
+            "EventEndTime": "2025-04-30T13:00:00",
+            "EventDescription": "CEE30008 - TU1 - 01, LockHei Ngu; B505 - 03/05 to 04/09, 04/23 to 05/28",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-30T00:00:00",
+            "EventStartTime": "2025-04-30T11:00:00",
+            "EventEndTime": "2025-04-30T13:00:00",
+            "EventDescription": "QSB11001 - LE1 - 01, Shin Hau Bong, Jiancheng Shan, Shin Hau Bong, Judy Let Hui Tan; B312 - 03/05 to 04/09, 04/23 to 05/28",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-04-30T00:00:00",
+            "EventStartTime": "2025-04-30T13:00:00",
+            "EventEndTime": "2025-04-30T14:00:00",
+            "EventDescription": "ENV30003 - LE2 - 01, Jenny ChengYi Choo; B506 - 03/05 to 04/09, 04/23 to 05/28",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-01T00:00:00",
+            "EventStartTime": "2025-05-01T08:00:00",
+            "EventEndTime": "2025-05-01T10:00:00",
+            "EventDescription": "ENG20009 - LA1 - 01, Evon WanTing Lim, Hudyjaya Siswojo; E505 - 03/06 to 04/10, 04/24 to 05/29",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-01T00:00:00",
+            "EventStartTime": "2025-05-01T09:00:00",
+            "EventEndTime": "2025-05-01T11:00:00",
+            "EventDescription": "SOC10005 - TU1 - 01, Moritz Mueller; B508 - 03/06 to 04/10, 04/24 to 05/29",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-01T00:00:00",
+            "EventStartTime": "2025-05-01T12:00:00",
+            "EventEndTime": "2025-05-01T13:00:00",
+            "EventDescription": "CEE30008 - LE2 - 01, LockHei Ngu; B508 - 03/06 to 04/10, 04/24 to 05/29",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-01T00:00:00",
+            "EventStartTime": "2025-05-01T15:00:00",
+            "EventEndTime": "2025-05-01T17:00:00",
+            "EventDescription": "TNE30018 - LA1 - 01, Khaled Yahya Mohamed Mahmoud El Karazle; B509 - 03/06 to 04/10, 04/24 to 05/29",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-01T00:00:00",
+            "EventStartTime": "2025-05-01T15:00:00",
+            "EventEndTime": "2025-05-01T18:00:00",
+            "EventDescription": "QSB11001 - TU1 - 01, Shin Hau Bong, Jiancheng Shan, Shin Hau Bong, Judy Let Hui Tan; E110 - 03/06 to 04/10, 04/24 to 05/29",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-02T00:00:00",
+            "EventStartTime": "2025-05-02T08:00:00",
+            "EventEndTime": "2025-05-02T10:00:00",
+            "EventDescription": "ENV30003 - LE1 - 01, Jenny ChengYi Choo; B506 - 03/07 to 04/11, 04/25 to 05/30",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-02T00:00:00",
+            "EventStartTime": "2025-05-02T14:00:00",
+            "EventEndTime": "2025-05-02T16:00:00",
+            "EventDescription": "ENG30002 - TU1 - 01, Almon WeiYen Chai; A301 - 03/07; E329 - 03/14 to 04/11, 04/25 to 05/30",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-02T00:00:00",
+            "EventStartTime": "2025-05-02T20:00:00",
+            "EventEndTime": "2025-05-02T22:00:00",
+            "EventDescription": "CSM80016 - LE1 - 01, Jeremy Chun Yaw Lu; E110 - 03/07 to 04/11, 04/25 to 05/30",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-03T00:00:00",
+            "EventStartTime": "2025-05-03T17:00:00",
+            "EventEndTime": "2025-05-03T20:00:00",
+            "EventDescription": "CSM80016 - TU1 - 01, Jeremy Chun Yaw Lu; E110 - 03/08 to 04/12, 04/26 to 05/31",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        }
+    ],
+    "ServiceResult": 0,
+    "ErrorMessage": null,
+    "ExtendedToken": "f3ksI93w7dangJn4GR1JUwB6HenX3YLfWC6ZDF65rzkM0s+QoFDmv7+K/EJ2EcSmiN6dnCDPc6ZYdN4MXF4T1ZTQqDObHDvVaZb27k3v+yyJYtEFkCcYIikTU3TkV10Gc7uuz4UqPe/8mn7utGtbCSB7gMAsLpjuhL7cvpbioH3Vmx3AevjN7zw9HDc4c7UcqG3TLcXxNCeQz9nKBvPKJCVikkIP8uKSgQlhOdCRV5HGpAhKpVTq3QPWBSS0bqCi4OG54RWhe8YUjnjy05d6HUP5CL9zhRVLEfon4ij7LUljR8anGzDvzjkdKdNFnXxrDsOqprwar4df9baHZjaxIok+uEM1vIC+8owCABU9kgSa1lk/FHVBRjDAfvtYygHtNw3/dnxlvjl3Q4vM/Ur8Ye00+DJQmK6FUlW0XHJSwfazvsiCyhGQgVcZFCZ9avzl2RxfKq4owV31X/xzkiLhdWVz59wkl6BR3hjD1YAiGuHW8y304kKeVRiiwodHxm4mil1oN+PPYdIhq5tekQ353MxeKWpJAkaTRpcvwgzDIj9hBuuw2cCp1jIVyf5sXFSvKawxzxFlSfjSC8TDn3Hcbw+eEXJaHZh/4CAz76VUuqAVvH6eYe7lHCUQQJCu4ACeFwIcjL/WzXNW5pGsFoalmKDsfUYoFQ52F/HR+r14PUZY2AOU2xMN7094e18vv8JvsRepJSVXRdQRJs1InjkOgaEl4fpZOJi1hlHL9+DIrX2qB2k2N3RT2ZPonlCxCfMsIbb5kn1YVteJg1bQmqJW/AN+xo63+UPvsSx0HAaqk3AiDcCcYk+NLcy69SuKaQPiFgh6Td7KAcCL81PwHnqIJ8sZnf1q8O6syhFCh589FTmK75FsNZXwkOr1LZIZ0ad4SQJz8Yb/2pO1AzEF91jpbdI7CiSKuoE12Y/GH4Ywms1zW2eJUul6K97rZGrnTWUWGH40GrPQKKXEsJ0/uF8bekqb3XNXJuC7ECSwGdfq2KRxlMSWSvUvZ+TyCIco+E0U5ai1qekEUaEo6Rp0FskpN5H7SqqPoFL4E5y6JHLWueURNmlXcOgljpqzmX6iRJh3HORAaMcHucUc7jnTUNZAn5dD83rOlBAlKutrA1b6dRyPga07Ilh0wXJVZHpK/Kxw/Z2Yuqj/JLPxwbVUp+oLyrye1zHW6bh4VJRbze0U6zkZkPl28cXSnjZxgovbJSB/B5po8YeM2PXN2s1lEHSUxO6nj6x8qZYt84nRnNNZzZrIwgYYa3aZP/LjIfp7xwKOQHC77ZSnra3Tz4nRRtgXJfqMFysCK74ireh37snhDnJt3FaGXCL0d7U5k7VFhecPB8y/70omVM+TwvaB+56NJ0RHPeogJcJAmOTpzXmUfJuRU+CBFr0ZATQ4zkq8IHntmNo7Fm0s8bGOX2mPQctgaR/WWtQkF/HHKNtFpHMIt4Fa8nrPS4a6v+W8wEJEC0LOG+xEY/6UQ7MjAxTEfW3sFTjuD5quLCfy3red01p5VW1Qfv5MPRaJgDWl6vIQ6Fg2HAqVnxckmjUqxoKo76L0Jvch2bZ1Ncbi32I5cvqmUBOlJf/QSQFqWcXd5GzslyvTV1QxAzs032jIq8JGT8ZycuE2PGqgHC7LGRx0Dob4sdDuSynUMnuspWTiaus4LGzP7DOilpBKdOvZC7HAmUS12lVnncuJ6GvEB/tCx7e9NTa78Z47LXPRgjPsEU2OlOi3OgdCr9VF3XZ0l8OT1mv+RmdXioHJ+U3JXf92r9IGVbGQ+Oxapky1sJYqa7WUmAIrNnk33TarZSOtGqBH0uGrZYbGt86UamdPzSocpenR6Lqi1ee+/hYgoLCUaCuO7prvFhlAxEzkowpp0P3DWiF7hUjBbBihpatyOoHx+Zzi8uqlcjl2JGec/s7PcOv6rVUmSkapJppjtDYos2CzoNjJEg=="
+}
