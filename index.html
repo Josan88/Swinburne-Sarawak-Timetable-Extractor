@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swinburne Timetable Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Swinburne Timetable to Calendar</h1>
+            <p>Select your courses, choose your specific tutorial/lab groups, and download your personalized timetable as an ICS file</p>
+        </header>
+        
+        <main>
+            <div class="course-selection">
+                <h2>Select Courses</h2>
+                <div class="search-container">
+                    <input type="text" id="course-search" placeholder="Search for a course (e.g., COS10003)">
+                    <div id="search-results" class="search-results"></div>
+                </div>
+                <div class="selected-courses">
+                    <h3>Selected Courses:</h3>
+                    <ul id="selected-courses-list"></ul>
+                </div>
+                <button id="download-ics" class="btn download-btn">Download ICS File</button>
+            </div>
+            
+            <div class="preview-container">
+                <h2>Timetable Preview</h2>
+                <div id="timetable-preview" class="timetable-preview">
+                    <p class="placeholder-text">Select courses to see a preview of your timetable</p>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Swinburne Timetable Analysis Tool &copy; 2025</p>
+        </footer>
+    </div>
+    
+    <script src="ics.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
