@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="64" fill="#002b49" />
+  
+  <!-- Calendar/Timetable body -->
+  <rect x="96" y="128" width="320" height="320" rx="16" fill="#ffffff" />
+  
+  <!-- Calendar/Timetable header -->
+  <rect x="96" y="128" width="320" height="64" rx="16" fill="#e42528" />
+  
+  <!-- Calendar/Timetable grid lines - horizontal -->
+  <line x1="96" y1="256" x2="416" y2="256" stroke="#002b49" stroke-width="4" />
+  <line x1="96" y1="320" x2="416" y2="320" stroke="#002b49" stroke-width="4" />
+  <line x1="96" y1="384" x2="416" y2="384" stroke="#002b49" stroke-width="4" />
+  
+  <!-- Calendar/Timetable grid lines - vertical -->
+  <line x1="176" y1="192" x2="176" y2="448" stroke="#002b49" stroke-width="4" />
+  <line x1="256" y1="192" x2="256" y2="448" stroke="#002b49" stroke-width="4" />
+  <line x1="336" y1="192" x2="336" y2="448" stroke="#002b49" stroke-width="4" />
+  
+  <!-- Clock hands to symbolize time -->
+  <circle cx="416" cy="96" r="32" fill="#e42528" />
+  <line x1="416" y1="96" x2="416" y2="76" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+  <line x1="416" y1="96" x2="428" y2="108" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- "S" for Swinburne -->
+  <path d="M132 96 Q112 96 112 76 Q112 56 132 56 Q152 56 152 76 L132 76 Q132 66 122 66 Q112 66 112 76 Q112 86 122 86 Q132 86 132 76 Q132 56 152 56 Q172 56 172 76 Q172 96 152 96 Q132 96 132 76" fill="#ffffff" />
+</svg>

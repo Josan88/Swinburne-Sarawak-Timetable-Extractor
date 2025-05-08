@@ -6,6 +6,61 @@ document.addEventListener('DOMContentLoaded', function() {
     const downloadIcsBtn = document.getElementById('download-ics');
     const timetablePreview = document.getElementById('timetable-preview');
     
+    // PWA Installation
+    let deferredPrompt;
+    const headerElement = document.querySelector('header');
+    
+    // Create install button but don't show it yet
+    const installButton = document.createElement('button');
+    installButton.id = 'install-btn';
+    installButton.className = 'btn install-btn';
+    installButton.textContent = 'Install App';
+    installButton.style.display = 'none';
+    
+    // Add the install button to the header
+    headerElement.appendChild(installButton);
+    
+    // Listen for the beforeinstallprompt event
+    window.addEventListener('beforeinstallprompt', (e) => {
+        // Prevent Chrome 76+ from automatically showing the prompt
+        e.preventDefault();
+        
+        // Stash the event so it can be triggered later
+        deferredPrompt = e;
+        
+        // Show the install button
+        installButton.style.display = 'block';
+        
+        console.log('App can be installed, showing install button');
+    });
+    
+    // Installation button click handler
+    installButton.addEventListener('click', async () => {
+        // Hide the app provided install promotion
+        installButton.style.display = 'none';
+        
+        // Show the install prompt
+        deferredPrompt.prompt();
+        
+        // Wait for the user to respond to the prompt
+        const { outcome } = await deferredPrompt.userChoice;
+        
+        // Log the outcome
+        console.log(`User response to the install prompt: ${outcome}`);
+        
+        // We've used the prompt, and can't use it again, clear it
+        deferredPrompt = null;
+    });
+    
+    // Listen for app installed event
+    window.addEventListener('appinstalled', (e) => {
+        // Log install to analytics or save user preference
+        console.log('Timetable app was installed');
+        
+        // Hide the install button if it's still showing
+        installButton.style.display = 'none';
+    });
+    
     // State
     let availableCourses = {};
     let selectedCourses = [];

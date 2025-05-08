@@ -251,6 +251,19 @@ footer {
     border-top: 1px solid var(--border-color);
 }
 
+.install-btn {
+    background-color: var(--secondary-color);
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    padding: 8px 16px;
+    display: none; /* Hidden by default until the app is installable */
+}
+
+.install-btn:hover {
+    background-color: #003d69; /* Darker shade of the secondary color */
+}
+
 @media (max-width: 768px) {
     main {
         grid-template-columns: 1fr;
@@ -259,5 +272,10 @@ footer {
     .group-options {
         flex-direction: column;
         gap: 5px;
+    }
+
+    .install-btn {
+        width: 100%;
+        margin-top: 10px;
     }
 }
