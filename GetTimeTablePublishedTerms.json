@@ -1,0 +1,853 @@
+{
+    "DataList": [
+        {
+            "DropdownId": 345,
+            "DropdownName": "2025 May Semester 1 (Foundation)",
+            "DropdownCode": "2025_MAY_S1_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 312,
+            "DropdownName": "2025 May Term 2",
+            "DropdownCode": "2025_MAY_T2",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 311,
+            "DropdownName": "2025 May Term 2 (MIT)",
+            "DropdownCode": "2025_MAY_T2_M",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 308,
+            "DropdownName": "2025 March Term 1",
+            "DropdownCode": "2025_MAR_T1",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 304,
+            "DropdownName": "2025 March Semester 1 (Foundation)",
+            "DropdownCode": "2025_MAR_S1_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 309,
+            "DropdownName": "2025 March Term 1 (MIT)",
+            "DropdownCode": "2025_MAR_T1_M",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 303,
+            "DropdownName": "2025 March Semester 1",
+            "DropdownCode": "2025_MAR_S1",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 310,
+            "DropdownName": "2025 February Term 1 (Certificate)",
+            "DropdownCode": "2025_FEB_T1_C",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 301,
+            "DropdownName": "2025 January Summer Term",
+            "DropdownCode": "2025_JAN_ST",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 302,
+            "DropdownName": "2025 January Summer Term (Foundation)",
+            "DropdownCode": "2025_JAN_ST_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 292,
+            "DropdownName": "2024 October Term 4",
+            "DropdownCode": "2024_OCT_T4",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 293,
+            "DropdownName": "2024 September Term 4 (MIT)",
+            "DropdownCode": "2024_SEP_T4_M",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 291,
+            "DropdownName": "2024 October Semester 2 (Foundation)",
+            "DropdownCode": "2024_OCT_S2_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 288,
+            "DropdownName": "2024 September Semester 2",
+            "DropdownCode": "2024_SEP_S2",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 290,
+            "DropdownName": "2024 September Term 3 (Certificate)",
+            "DropdownCode": "2024_SEP_T3_C",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 289,
+            "DropdownName": "2024 September Semester 2 (Foundation)",
+            "DropdownCode": "2024_SEP_S2_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 286,
+            "DropdownName": "2024 July Term 3",
+            "DropdownCode": "2024_JUL_T3",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 287,
+            "DropdownName": "2024 July Term 3 (MIT)",
+            "DropdownCode": "2024_JUL_T3_M",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 284,
+            "DropdownName": "2024 July Winter Term (Foundation)",
+            "DropdownCode": "2024_JUL_WT_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 281,
+            "DropdownName": "2024 June Winter Term",
+            "DropdownCode": "2024_JUN_WT",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 280,
+            "DropdownName": "2024 June Term 2 (Certificate)",
+            "DropdownCode": "2024_JUN_T2_C",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 279,
+            "DropdownName": "2024 May Term 2",
+            "DropdownCode": "2024_MAY_T2",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 278,
+            "DropdownName": "2024 April Term 2 (MIT)",
+            "DropdownCode": "2024_APR_T2_M",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 276,
+            "DropdownName": "2024 February Term 1 (MIT)",
+            "DropdownCode": "2024_FEB_T1_M",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 273,
+            "DropdownName": "2024 February Semester 1",
+            "DropdownCode": "2024_FEB_S1",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 275,
+            "DropdownName": "2024 February Term 1",
+            "DropdownCode": "2024_FEB_T1",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 274,
+            "DropdownName": "2024 February Semester 1 (Foundation)",
+            "DropdownCode": "2024_FEB_S1_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 277,
+            "DropdownName": "2024 February Term 1 (Certificate)",
+            "DropdownCode": "2024_FEB_T1_C",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 271,
+            "DropdownName": "2024 January Summer Term (Foundation)",
+            "DropdownCode": "2024_JAN_ST_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 270,
+            "DropdownName": "2024 January Summer Term",
+            "DropdownCode": "2024_JAN_ST",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 261,
+            "DropdownName": "2023 October Term 4",
+            "DropdownCode": "2023_OCT_T4",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 258,
+            "DropdownName": "2023 October Semester 2 (Foundation)",
+            "DropdownCode": "2023_OCT_S2_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 260,
+            "DropdownName": "2023 October Term 4 (MIT)",
+            "DropdownCode": "2023_OCT_T4_M",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 255,
+            "DropdownName": "2023 September Semester 2",
+            "DropdownCode": "2023_SEP_S2",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 259,
+            "DropdownName": "2023 September Term 3 (Certificate)",
+            "DropdownCode": "2023_SEP_T3_C",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 256,
+            "DropdownName": "2023 September Semester 2 (Foundation)",
+            "DropdownCode": "2023_SEP_S2_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 253,
+            "DropdownName": "2023 July Term 3 (MIT)",
+            "DropdownCode": "2023_JUL_T3_M",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 254,
+            "DropdownName": "2023 July Term 3",
+            "DropdownCode": "2023_JUL_T3",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 251,
+            "DropdownName": "2023 July Term 2",
+            "DropdownCode": "2023_JUL_T2",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 264,
+            "DropdownName": "2023 July Winter Term (Foundation)",
+            "DropdownCode": "2023_JUL_WT_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 250,
+            "DropdownName": "2023 June Winter Term",
+            "DropdownCode": "2023_JUN_WT",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 252,
+            "DropdownName": "2023 June Term 2 (Certificate)",
+            "DropdownCode": "2023_JUN_T2_C",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 245,
+            "DropdownName": "2023 May Term 2",
+            "DropdownCode": "2023_MAY_T2",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 244,
+            "DropdownName": "2023 May Term 2 (MIT)",
+            "DropdownCode": "2023_MAY_T2_M",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 238,
+            "DropdownName": "2023 February Semester 1",
+            "DropdownCode": "2023_FEB_S1",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 262,
+            "DropdownName": "2023 February Semester 1 (Foundation)",
+            "DropdownCode": "2023_FEB_S1_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 239,
+            "DropdownName": "2023 February Term 1 (MIT)",
+            "DropdownCode": "2023_FEB_T1_M",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 263,
+            "DropdownName": "2023 February Term 1 (Certificate)",
+            "DropdownCode": "2023_FEB_T1_C",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 240,
+            "DropdownName": "2023 February Term 1",
+            "DropdownCode": "2023_FEB_T1",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 237,
+            "DropdownName": "2023 January Term 1",
+            "DropdownCode": "2023_JAN_T1",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 234,
+            "DropdownName": "2023 January Summer Term",
+            "DropdownCode": "2023_JAN_ST",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 235,
+            "DropdownName": "2023 January Summer Term (Foundation)",
+            "DropdownCode": "2023_JAN_ST_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 222,
+            "DropdownName": "2022 October Term 4",
+            "DropdownCode": "2022_OCT_T4",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 231,
+            "DropdownName": "2022 October Term 4 (MIT)",
+            "DropdownCode": "2022_OCT_T4_M",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 219,
+            "DropdownName": "2022 October Semester 2",
+            "DropdownCode": "2022_OCT_S2",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 221,
+            "DropdownName": "2022 October Term 4 (Certificate)",
+            "DropdownCode": "2022_OCT_T4_C",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 220,
+            "DropdownName": "2022 October Semester 2 (Foundation)",
+            "DropdownCode": "2022_OCT_S2_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 217,
+            "DropdownName": "2022 September Semester 2",
+            "DropdownCode": "2022_SEP_S2",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 218,
+            "DropdownName": "2022 September Semester 2 (Foundation)",
+            "DropdownCode": "2022_SEP_S2_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 216,
+            "DropdownName": "2022 August Term 3",
+            "DropdownCode": "2022_AUG_T3",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 230,
+            "DropdownName": "2022 August Term 3 (MIT)",
+            "DropdownCode": "2022_AUG_T3_M",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 247,
+            "DropdownName": "2022 August Term 1 (EEP)",
+            "DropdownCode": "2022_AUG_T1_E",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 215,
+            "DropdownName": "2022 July Term 3 (Certificate)",
+            "DropdownCode": "2022_JUL_T3_C",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 246,
+            "DropdownName": "2022 July Winter Term (Foundation)",
+            "DropdownCode": "2022_JUL_WT_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 212,
+            "DropdownName": "2022 June Winter Term (Foundation)",
+            "DropdownCode": "2022_JUN_WT_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 213,
+            "DropdownName": "2022 June Winter Term",
+            "DropdownCode": "2022_JUN_WT",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 210,
+            "DropdownName": "2022 May Term 2",
+            "DropdownCode": "2022_MAY_T2",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 207,
+            "DropdownName": "2022 April Semester 1",
+            "DropdownCode": "2022_APR_S1",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 209,
+            "DropdownName": "2022 April Term 2 (Certificate)",
+            "DropdownCode": "2022_APR_T2_C",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 208,
+            "DropdownName": "2022 April Semester 1 (Foundation)",
+            "DropdownCode": "2022_APR_S1_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 204,
+            "DropdownName": "2022 February Term 1",
+            "DropdownCode": "2022_FEB_T1",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 205,
+            "DropdownName": "2022 February Semester 1",
+            "DropdownCode": "2022_FEB_S1",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 202,
+            "DropdownName": "2022 January Term 1 (Certificate)",
+            "DropdownCode": "2022_JAN_T1_C",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 201,
+            "DropdownName": "2022 January Summer Term (Foundation)",
+            "DropdownCode": "2022_JAN_ST_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 203,
+            "DropdownName": "2022 January Term 1",
+            "DropdownCode": "2022_JAN_T1",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 200,
+            "DropdownName": "2022 January Summer Term",
+            "DropdownCode": "2022_JAN_ST",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 193,
+            "DropdownName": "2021 October Term 4",
+            "DropdownCode": "2021_OCT_T4",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 192,
+            "DropdownName": "2021 October Term 4 (Certificate)",
+            "DropdownCode": "2021_OCT_T4_C",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 191,
+            "DropdownName": "2021 October Semester 2 (Foundation)",
+            "DropdownCode": "2021_OCT_S2_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 190,
+            "DropdownName": "2021 September Semester 2",
+            "DropdownCode": "2021_SEP_S2",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 189,
+            "DropdownName": "2021 August Semester 2 (Foundation)",
+            "DropdownCode": "2021_AUG_S2_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 188,
+            "DropdownName": "2021 August Semester 2",
+            "DropdownCode": "2021_AUG_S2",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 187,
+            "DropdownName": "2021 August Term 3",
+            "DropdownCode": "2021_AUG_T3",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 186,
+            "DropdownName": "2021 July Term 3 (Certificate)",
+            "DropdownCode": "2021_JUL_T3_C",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 224,
+            "DropdownName": "2021 July Winter Term",
+            "DropdownCode": "2021_JUL_WT",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 225,
+            "DropdownName": "2021 July Winter Term (Foundation)",
+            "DropdownCode": "2021_JUL_WT_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 184,
+            "DropdownName": "2021 June Winter Term",
+            "DropdownCode": "2021_JUN_WT",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 223,
+            "DropdownName": "2021 June Winter Term (Foundation)",
+            "DropdownCode": "2021_JUN_WT_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 183,
+            "DropdownName": "2021 May Term 2",
+            "DropdownCode": "2021_MAY_T2",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 177,
+            "DropdownName": "2021 April Semester 1",
+            "DropdownCode": "2021_APR_S1",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 182,
+            "DropdownName": "2021 April Term 2 (Certificate)",
+            "DropdownCode": "2021_APR_T2_C",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 162,
+            "DropdownName": "2021 April Semester 1 (Foundation)",
+            "DropdownCode": "2021_APR_S1_F",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 178,
+            "DropdownName": "2021 March Term 1",
+            "DropdownCode": "2021_MAR_T1",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        },
+        {
+            "DropdownId": 161,
+            "DropdownName": "2021 March Semester 1",
+            "DropdownCode": "2021_MAR_S1",
+            "FilterID": null,
+            "Nomenclature": null,
+            "Text": null,
+            "Value": null
+        }
+    ],
+    "ServiceResult": 0,
+    "ErrorMessage": null,
+    "ExtendedToken": "f3ksI93w7dangJn4GR1JUwB6HenX3YLfWC6ZDF65rzkM0s+QoFDmv7+K/EJ2EcSmiN6dnCDPc6ZYdN4MXF4T1ZTQqDObHDvVaZb27k3v+yyJYtEFkCcYIikTU3TkV10Gc7uuz4UqPe/8mn7utGtbCSB7gMAsLpjuhL7cvpbioH3Vmx3AevjN7zw9HDc4c7UcqG3TLcXxNCeQz9nKBvPKJCVikkIP8uKSgQlhOdCRV5HGpAhKpVTq3QPWBSS0bqCi4OG54RWhe8YUjnjy05d6HUP5CL9zhRVLEfon4ij7LUljR8anGzDvzjkdKdNFnXxrDsOqprwar4df9baHZjaxIok+uEM1vIC+8owCABU9kgSa1lk/FHVBRjDAfvtYygHtNw3/dnxlvjl3Q4vM/Ur8Ye00+DJQmK6FUlW0XHJSwfazvsiCyhGQgVcZFCZ9avzl2RxfKq4owV31X/xzkiLhdWVz59wkl6BR3hjD1YAiGuHW8y304kKeVRiiwodHxm4mil1oN+PPYdIhq5tekQ353MxeKWpJAkaTRpcvwgzDIj9hBuuw2cCp1jIVyf5sXFSvKawxzxFlSfjSC8TDn3Hcbw+eEXJaHZh/4CAz76VUuqAVvH6eYe7lHCUQQJCu4ACeFwIcjL/WzXNW5pGsFoalmKDsfUYoFQ52F/HR+r14PUZY2AOU2xMN7094e18vv8JvsRepJSVXRdQRJs1InjkOgaEl4fpZOJi1hlHL9+DIrX2qB2k2N3RT2ZPonlCxCfMsIbb5kn1YVteJg1bQmqJW/AN+xo63+UPvsSx0HAaqk3AiDcCcYk+NLcy69SuKaQPiFgh6Td7KAcCL81PwHnqIJ8sZnf1q8O6syhFCh589FTmK75FsNZXwkOr1LZIZ0ad4SQJz8Yb/2pO1AzEF91jpbdI7CiSKuoE12Y/GH4Ywms1zW2eJUul6K97rZGrnTWUWGH40GrPQKKXEsJ0/uF8bekqb3XNXJuC7ECSwGdfq2KRxlMSWSvUvZ+TyCIco+E0U5ai1qekEUaEo6Rp0FskpN5H7SqqPoFL4E5y6JHLWueURNmlXcOgljpqzmX6iRJh3HORAaMcHucUc7jnTUNZAn5dD83rOlBAlKutrA1b6dRyPga07Ilh0wXJVZHpK/Kxw/Z2Yuqj/JLPxwbVUp+oLyrye1zHW6bh4VJRbze0U6zkZkPl28cXSnjZxgovbJSB/B5po8YeM2PXN2s1lEHSUxO6nj6x8qZYt84nRnNNZzZrIwgYYa3aZP/LjIfp7xwKOQHC77ZSnra3Tz4nRRtgXJfqMFysCK74ireh37snhDnJt3FaGXCL0d7U5k7VFhecPB8y/70omVM+TwvaB+56NJ0RHPeogJcJAmOTpzXmUfJuRU+CBFr0ZATQ4zkq8IHntmNo7Fm0s8bGOX2mPQctgaR/WWtQkF/HHKNtFpHMIt4Fa8nrPS4a6v+W8wEJEC0LOG+xEY/6UQ7MjAxTEfW3sFTjuD5quLCfy3red01p5VW1Qfv5MPRaJgDWl6vIQ6Fg2HAqVnxckmjUqxoKo76L0Jvch2bZ1Ncbi32I5cvqmUBOlJf/QSQFqWcXd5GzslyvTV1QxAzs032jIq8JGT8ZycqlfuLlAt7ukFyic8gDS0BHIjPCpAjzdmNsBNdSDZWybZ6ENKjKlLXWkfCiuwl1UCENQxQ9SGL8yQC/IgoqQbB0QH5D0bg+D9/L43trAAdIBHAjItF2hVHcfr7c07MiOJDfUPb6i1mgLV5HLE/3nOtBs4qB+NUEy0dB1Wt51hE6vfXwqGvjsm1v5Xd5SRx8DfSCtfDjZMP712FO3fVMlAElWKFghKds1SqrFO3OONSxin3IzvzGeE+j5kYh/YbR9+rZCGk+OarcQ/LdT/tluRyYWHUPwSm1p5rPSxIsIsk2vjIjlA1g9XFcOlBSC35kiyA=="
+}
