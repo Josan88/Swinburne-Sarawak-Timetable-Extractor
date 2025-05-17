@@ -1,0 +1,37 @@
+[
+    {
+        "id": 345,
+        "name": "2025 May Semester 1 (Foundation)",
+        "code": "2025_MAY_S1_F"
+    },
+    {
+        "id": 312,
+        "name": "2025 May Term 2",
+        "code": "2025_MAY_T2"
+    },
+    {
+        "id": 311,
+        "name": "2025 May Term 2 (MIT)",
+        "code": "2025_MAY_T2_M"
+    },
+    {
+        "id": 308,
+        "name": "2025 March Term 1",
+        "code": "2025_MAR_T1"
+    },
+    {
+        "id": 304,
+        "name": "2025 March Semester 1 (Foundation)",
+        "code": "2025_MAR_S1_F"
+    },
+    {
+        "id": 309,
+        "name": "2025 March Term 1 (MIT)",
+        "code": "2025_MAR_T1_M"
+    },
+    {
+        "id": 303,
+        "name": "2025 March Semester 1",
+        "code": "2025_MAR_S1"
+    }
+]

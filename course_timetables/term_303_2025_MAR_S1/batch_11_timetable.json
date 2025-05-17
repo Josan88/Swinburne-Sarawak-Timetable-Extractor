@@ -1,0 +1,216 @@
+{
+    "DataList": [
+        {
+            "Id": 0,
+            "EventDate": "2025-05-12T00:00:00",
+            "EventStartTime": "2025-05-12T10:30:00",
+            "EventEndTime": "2025-05-12T12:30:00",
+            "EventDescription": "DBA132 - LE1 - 01, Irving Shou Hui Ting; G001 - 03/03 to 04/07, 04/21 to 05/26",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-12T00:00:00",
+            "EventStartTime": "2025-05-12T11:00:00",
+            "EventEndTime": "2025-05-12T12:00:00",
+            "EventDescription": "MGT10010 - TU1 - 01, Dianne ShoonCheen Tsen; B412 - 03/03 to 04/07, 04/21 to 05/26",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-12T00:00:00",
+            "EventStartTime": "2025-05-12T12:00:00",
+            "EventEndTime": "2025-05-12T13:00:00",
+            "EventDescription": "MGT10010 - TU1 - 02, Dianne ShoonCheen Tsen; B412 - 03/03 to 04/07, 04/21 to 05/26",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-12T00:00:00",
+            "EventStartTime": "2025-05-12T16:00:00",
+            "EventEndTime": "2025-05-12T17:00:00",
+            "EventDescription": "FIN20016 - LE1 - 01, Choi Meng Leong; G401 - 03/03 to 04/07, 04/21 to 05/26",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-13T00:00:00",
+            "EventStartTime": "2025-05-13T10:30:00",
+            "EventEndTime": "2025-05-13T12:30:00",
+            "EventDescription": "DBA232 - LE1 - 01, Addlance Entagon; G709 - 03/04 to 04/08, 04/22 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-13T00:00:00",
+            "EventStartTime": "2025-05-13T11:00:00",
+            "EventEndTime": "2025-05-13T12:00:00",
+            "EventDescription": "FIN20016 - TU1 - 02, Choi Meng Leong; B506 - 03/04 to 04/08, 04/22 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-14T00:00:00",
+            "EventStartTime": "2025-05-14T08:00:00",
+            "EventEndTime": "2025-05-14T10:00:00",
+            "EventDescription": "DBA132 - TU1 - 04, Irving Shou Hui Ting; G711 - 03/05",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-14T00:00:00",
+            "EventStartTime": "2025-05-14T08:00:00",
+            "EventEndTime": "2025-05-14T10:00:00",
+            "EventDescription": "EAT40004 - LE1 - 01, CheanHung Lai; G401 - 03/05 to 04/09, 04/23 to 05/28",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-14T00:00:00",
+            "EventStartTime": "2025-05-14T08:00:00",
+            "EventEndTime": "2025-05-14T10:00:00",
+            "EventDescription": "ENG40002 - LE1 - 01, Basil TungLiong Wong, CheanHung Lai, LockHei Ngu, Elizabeth EuMee Chong, HongSiang Chua, Muhammad Rafiq Mirza Julaihi; G401 - 03/05 to 04/09, 04/23 to 05/28",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-14T00:00:00",
+            "EventStartTime": "2025-05-14T08:00:00",
+            "EventEndTime": "2025-05-14T10:00:00",
+            "EventDescription": "ENG40004 - LE1 - 01, Muhammad Rafiq Mirza Julaihi; G401 - 03/05 to 03/19",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-14T00:00:00",
+            "EventStartTime": "2025-05-14T16:00:00",
+            "EventEndTime": "2025-05-14T17:00:00",
+            "EventDescription": "MGT10010 - LE1 - 01, Dianne ShoonCheen Tsen; G604 - 03/05 to 04/09, 04/23 to 05/28",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-15T00:00:00",
+            "EventStartTime": "2025-05-15T08:00:00",
+            "EventEndTime": "2025-05-15T10:00:00",
+            "EventDescription": "EAT40003 - LE1 - 01, CheanHung Lai; B004 - 03/06 to 04/10, 04/24 to 05/29",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-15T00:00:00",
+            "EventStartTime": "2025-05-15T08:00:00",
+            "EventEndTime": "2025-05-15T10:00:00",
+            "EventDescription": "ENG40001 - LE1 - 01, Basil TungLiong Wong, Jiuan Jing Chew, Elizabeth EuMee Chong, CheanHung Lai, Hui En Lee, Muhammad Rafiq Mirza Julaihi, Hui En Lee, Basil TungLiong Wong, CheanHung Lai, Elizabeth EuMee Chong, Jiuan Jing Chew, Muhammad Rafiq Mirza Julaihi; B004 - 03/06 to 04/10, 04/24 to 05/29",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-15T00:00:00",
+            "EventStartTime": "2025-05-15T08:00:00",
+            "EventEndTime": "2025-05-15T10:00:00",
+            "EventDescription": "ENG40003 - LE1 - 01, Muhammad Rafiq Mirza Julaihi; B004 - 03/06 to 03/20",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-15T00:00:00",
+            "EventStartTime": "2025-05-15T08:30:00",
+            "EventEndTime": "2025-05-15T10:30:00",
+            "EventDescription": "DBA132 - TU1 - 01, Irving Shou Hui Ting; G711 - 03/06 to 04/10, 04/24 to 05/29",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-15T00:00:00",
+            "EventStartTime": "2025-05-15T08:30:00",
+            "EventEndTime": "2025-05-15T10:30:00",
+            "EventDescription": "DBA232 - TU1 - 01, Addlance Entagon; G709 - 03/06 to 04/10, 04/24 to 05/29",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-15T00:00:00",
+            "EventStartTime": "2025-05-15T10:00:00",
+            "EventEndTime": "2025-05-15T11:00:00",
+            "EventDescription": "FIN20016 - TU1 - 01, Choi Meng Leong; B215 - 03/06 to 04/10, 04/24 to 05/29",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-15T00:00:00",
+            "EventStartTime": "2025-05-15T10:30:00",
+            "EventEndTime": "2025-05-15T12:30:00",
+            "EventDescription": "DBA132 - TU1 - 03, Irving Shou Hui Ting; G711 - 03/06 to 04/10, 04/24 to 05/29",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-16T00:00:00",
+            "EventStartTime": "2025-05-16T16:00:00",
+            "EventEndTime": "2025-05-16T18:00:00",
+            "EventDescription": "DBA132 - TU1 - 02, Irving Shou Hui Ting; G711 - 03/07 to 04/11, 04/25 to 05/30",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        }
+    ],
+    "ServiceResult": 0,
+    "ErrorMessage": null,
+    "ExtendedToken": "f3ksI93w7dangJn4GR1JUwB6HenX3YLfWC6ZDF65rzkM0s+QoFDmv7+K/EJ2EcSmiN6dnCDPc6ZYdN4MXF4T1ZTQqDObHDvVaZb27k3v+yyJYtEFkCcYIikTU3TkV10Gc7uuz4UqPe/8mn7utGtbCSB7gMAsLpjuhL7cvpbioH3Vmx3AevjN7zw9HDc4c7UcqG3TLcXxNCeQz9nKBvPKJCVikkIP8uKSgQlhOdCRV5HGpAhKpVTq3QPWBSS0bqCi4OG54RWhe8YUjnjy05d6HUP5CL9zhRVLEfon4ij7LUljR8anGzDvzjkdKdNFnXxrDsOqprwar4df9baHZjaxIok+uEM1vIC+8owCABU9kgSa1lk/FHVBRjDAfvtYygHtNw3/dnxlvjl3Q4vM/Ur8Ye00+DJQmK6FUlW0XHJSwfazvsiCyhGQgVcZFCZ9avzl2RxfKq4owV31X/xzkiLhdWVz59wkl6BR3hjD1YAiGuHW8y304kKeVRiiwodHxm4mil1oN+PPYdIhq5tekQ353MxeKWpJAkaTRpcvwgzDIj9hBuuw2cCp1jIVyf5sXFSvKawxzxFlSfjSC8TDn3Hcbw+eEXJaHZh/4CAz76VUuqAVvH6eYe7lHCUQQJCu4ACeFwIcjL/WzXNW5pGsFoalmKDsfUYoFQ52F/HR+r14PUZY2AOU2xMN7094e18vv8JvsRepJSVXRdQRJs1InjkOgaEl4fpZOJi1hlHL9+DIrX2qB2k2N3RT2ZPonlCxCfMsIbb5kn1YVteJg1bQmqJW/AN+xo63+UPvsSx0HAaqk3AiDcCcYk+NLcy69SuKaQPiFgh6Td7KAcCL81PwHnqIJ8sZnf1q8O6syhFCh589FTmK75FsNZXwkOr1LZIZ0ad4SQJz8Yb/2pO1AzEF91jpbdI7CiSKuoE12Y/GH4Ywms1zW2eJUul6K97rZGrnTWUWGH40GrPQKKXEsJ0/uF8bekqb3XNXJuC7ECSwGdfq2KRxlMSWSvUvZ+TyCIco+E0U5ai1qekEUaEo6Rp0FskpN5H7SqqPoFL4E5y6JHLWueURNmlXcOgljpqzmX6iRJh3HORAaMcHucUc7jnTUNZAn5dD83rOlBAlKutrA1b6dRyPga07Ilh0wXJVZHpK/Kxw/Z2Yuqj/JLPxwbVUp+oLyrye1zHW6bh4VJRbze0U6zkZkPl28cXSnjZxgovbJSB/B5po8YeM2PXN2s1lEHSUxO6nj6x8qZYt84nRnNNZzZrIwgYYa3aZP/LjIfp7xwKOQHC77ZSnra3Tz4nRRtgXJfqMFysCK74ireh37snhDnJt3FaGXCL0d7U5k7VFhecPB8y/70omVM+TwvaB+56NJ0RHPeogJcJAmOTpzXmUfJuRU+CBFr0ZATQ4zkq8IHntmNo7Fm0s8bGOX2mPQctgaR/WWtQkF/HHKNtFpHMIt4Fa8nrPS4a6v+W8wEJEC0LOG+xEY/6UQ7MjAxTEfW3sFTjuD5quLCfy3red01p5VW1Qfv5MPRaJgDWl6vIQ6Fg2HAqVnxckmjUqxoKo76L0Jvch2bZ1Ncbi32I5cvqmUBOlJf/QSQFqWcXd5GzslyvTV1QxAzs032jIq8JGT8Zycrkm2oHE0HkjwCWpRov/XR1xmB8OvJg+p2nIKZaFk7CTH9OS0IAWoBGVupFQsaLjpSOcNDGO9iFGIA9wmSuZtxRPqv8MhU4r4LMdg5rm3LJ/DOFpvMPLmDnVCgnvPyZVaun3RRj715F/ruN2zi/D+mHk16YZHj13Ta1CMEmDFko9YS2McCN9/znCRzdKvJ9cDSQF+iuo+XVf/Pe0sjBhSEasIyNr08AGiXR0FAIyr1B9tm6lM0ehES2+Ul72C9We/OkYZu1bqTutPzGroROvBnK7lVmMr9OeH9IyS2zCWYZDX2emIHjRqzCX22rXR5StaQ=="
+}

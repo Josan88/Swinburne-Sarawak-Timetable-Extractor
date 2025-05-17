@@ -44,6 +44,26 @@ main {
     gap: 30px;
 }
 
+.term-selector-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.term-selector-container label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#term-selector {
+    padding: 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: white;
+    flex-grow: 1;
+    font-size: 16px;
+}
+
 h2 {
     margin-bottom: 20px;
     color: var(--secondary-color);
@@ -88,6 +108,23 @@ h3 {
     transition: background 0.2s;
 }
 
+.search-results .result-item .course-code {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.search-results .result-item .course-name {
+    color: #555;
+    font-size: 0.9em;
+}
+
+.search-results .result-item .course-term {
+    font-size: 0.8em;
+    color: #777;
+    display: block;
+    margin-top: 3px;
+}
+
 .search-results .result-item:hover {
     background-color: var(--light-bg);
 }
@@ -113,9 +150,28 @@ h3 {
 .course-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 10px;
+}
+
+.course-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.course-info .course-code {
     font-weight: bold;
+    font-size: 1.1em;
+}
+
+.course-info .course-name {
+    color: #555;
+    font-size: 0.9em;
+}
+
+.course-info .course-term {
+    color: #777;
+    font-size: 0.8em;
 }
 
 .remove-course {
@@ -225,15 +281,30 @@ h3 {
     border-radius: 5px;
     background-color: #e6f1ff;
     border-left: 4px solid var(--secondary-color);
+    display: flex;
 }
 
 .event-time {
     font-weight: bold;
     color: var(--secondary-color);
+    width: 130px;
+}
+
+.event-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .event-description {
     font-size: 14px;
+}
+
+.event-term {
+    font-size: 0.8em;
+    color: #666;
+    font-style: italic;
+    margin-top: 2px;
 }
 
 .more-events-note {

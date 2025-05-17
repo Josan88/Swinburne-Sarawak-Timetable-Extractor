@@ -60,12 +60,16 @@ document.addEventListener('DOMContentLoaded', function() {
         // Hide the install button if it's still showing
         installButton.style.display = 'none';
     });
-    
-    // State
-    let availableCourses = {};
+      // State
+    let availableCourses = {
+        courses: [],
+        term_mappings: {},
+        terms: []
+    };
     let selectedCourses = [];
     let timetableData = {};
     let groupSelections = {}; // Store user's group selections for each course
+    let currentTermId = null; // Track currently selected term
     
     // Load course data
     loadCourseSummary();
@@ -75,20 +79,64 @@ document.addEventListener('DOMContentLoaded', function() {
     searchResults.addEventListener('click', handleSearchResultClick);
     downloadIcsBtn.addEventListener('click', generateAndDownloadICS);
     
-    // Load the course summary JSON
+    // Add term selector event listener
+    document.getElementById('term-selector').addEventListener('change', handleTermChange);
+      // Load the course summary JSON
     function loadCourseSummary() {
         fetch('course_summary.json')
             .then(response => response.json())
             .then(data => {
                 availableCourses = data;
-                console.log('Course summary loaded:', Object.keys(availableCourses).length, 'courses');
+                console.log('Course summary loaded:', availableCourses.total_courses, 'courses');
+                
+                // Populate term selector
+                populateTermSelector();
+                
+                // Set the default term to the first one in the list
+                if (availableCourses.terms && availableCourses.terms.length > 0) {
+                    const termSelector = document.getElementById('term-selector');
+                    if (termSelector && termSelector.options.length > 0) {
+                        currentTermId = parseInt(termSelector.value);
+                    }
+                }
             })
             .catch(error => {
                 console.error('Error loading course summary:', error);
             });
     }
     
-    // Handle search input
+    // Populate the term selector dropdown with available terms
+    function populateTermSelector() {
+        const termSelector = document.getElementById('term-selector');
+        
+        if (!termSelector || !availableCourses.terms) return;
+        
+        // Clear existing options
+        termSelector.innerHTML = '';
+        
+        // Add options for each term
+        availableCourses.terms.forEach(term => {
+            const option = document.createElement('option');
+            option.value = term.id;
+            option.textContent = term.name;
+            termSelector.appendChild(option);
+        });
+    }
+    
+    // Handle term change
+    function handleTermChange(event) {
+        currentTermId = parseInt(event.target.value);
+        
+        // Clear search results
+        searchResults.innerHTML = '';
+        searchResults.style.display = 'none';
+        courseSearch.value = '';
+        
+        console.log(`Switched to term ID: ${currentTermId}`);
+        
+        // Could refresh the selected courses based on term, but for now we'll let users manage this
+    }
+      // Handle search input
     function handleSearchInput(event) {
         const query = event.target.value.trim().toUpperCase();
         
@@ -100,134 +148,191 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         
-        // Filter courses based on query
-        const filteredCourses = Object.entries(availableCourses)
-            .filter(([id, code]) => code.includes(query))
+        // Filter courses based on query and current term
+        const filteredCourses = availableCourses.courses
+            .filter(course => {
+                // Match by code or name
+                const matchesQuery = course.code.toUpperCase().includes(query) || 
+                                    course.name.toUpperCase().includes(query);
+                
+                // Filter by current term if one is selected
+                const matchesTerm = currentTermId ? course.term_id === currentTermId : true;
+                
+                return matchesQuery && matchesTerm;
+            })
             .slice(0, 10); // Limit to 10 results
         
         if (filteredCourses.length === 0) {
             searchResults.style.display = 'none';
             return;
         }
-        
-        // Display results
-        filteredCourses.forEach(([id, code]) => {
+          // Display results
+        filteredCourses.forEach(course => {
             const resultItem = document.createElement('div');
             resultItem.className = 'result-item';
-            resultItem.textContent = code;
-            resultItem.dataset.id = id;
-            resultItem.dataset.code = code;
+            
+            // Structured content with proper classes
+            resultItem.innerHTML = `
+                <span class="course-code">${course.code}</span>
+                <span class="course-name">${course.name}</span>
+                <span class="course-term">${course.term_name}</span>
+            `;
+            
+            resultItem.dataset.id = course.id;
+            resultItem.dataset.code = course.code;
+            resultItem.dataset.name = course.name;
+            resultItem.dataset.termId = course.term_id;
+            resultItem.dataset.termName = course.term_name;
             searchResults.appendChild(resultItem);
         });
         
         searchResults.style.display = 'block';
-    }
-    
-    // Handle search result click
+    }    // Handle search result click
     function handleSearchResultClick(event) {
-        if (event.target.classList.contains('result-item')) {
-            const courseId = event.target.dataset.id;
-            const courseCode = event.target.dataset.code;
+        // Find the result-item element (could be the clicked element or a parent)
+        const resultItem = event.target.classList.contains('result-item') ? 
+            event.target : event.target.closest('.result-item');
+            
+        if (resultItem) {
+            const courseId = resultItem.dataset.id;
+            const courseCode = resultItem.dataset.code;
+            const courseName = resultItem.dataset.name;
+            const termId = resultItem.dataset.termId;
+            const termName = resultItem.dataset.termName;
             
             // Don't add duplicates
-            if (selectedCourses.some(course => course.code === courseCode)) {
+            if (selectedCourses.some(course => course.code === courseCode && course.termId === parseInt(termId))) {
                 searchResults.style.display = 'none';
                 courseSearch.value = '';
                 return;
             }
             
             // Add to selected courses
-            selectedCourses.push({ id: courseId, code: courseCode });
+            selectedCourses.push({ 
+                id: parseInt(courseId), 
+                code: courseCode, 
+                name: courseName,
+                termId: parseInt(termId),
+                termName: termName
+            });
             
             // Initialize group selections for this course
-            groupSelections[courseCode] = {
+            const courseKey = `${courseCode}_${termId}`;
+            groupSelections[courseKey] = {
                 includedGroups: [],
                 availableGroups: []
             };
             
             // Add to UI
-            addCourseToUI(courseId, courseCode);
-            
-            // Load timetable data for this course
-            loadTimetableData(courseCode);
+            addCourseToUI(courseId, courseCode, courseName, termId, termName);            // Load timetable data for this course
+            loadTimetableData(courseCode, termId);
             
             // Clear search
             searchResults.style.display = 'none';
             courseSearch.value = '';
         }
     }
-    
-    // Add course to UI list
-    function addCourseToUI(id, code) {
+      // Add course to UI list
+    function addCourseToUI(id, code, name, termId, termName) {
         const courseItem = document.createElement('li');
         courseItem.dataset.code = code;
+        courseItem.dataset.termId = termId;
+        
+        // Create a unique key for this course in this term
+        const courseKey = `${code}_${termId}`;
+        
         courseItem.innerHTML = `
             <div class="course-header">
-                <span>${code}</span>
-                <span class="remove-course" data-code="${code}">✕</span>
+                <div class="course-info">
+                    <span class="course-code">${code}</span>
+                    <span class="course-name">${name || ''}</span>
+                    <span class="course-term">${termName || ''}</span>
+                </div>
+                <span class="remove-course" data-code="${code}" data-termid="${termId}">✕</span>
             </div>
-            <div class="course-groups" id="groups-${code}">
+            <div class="course-groups" id="groups-${courseKey}">
                 <p class="loading-text">Loading available groups...</p>
             </div>
         `;
         
         courseItem.querySelector('.remove-course').addEventListener('click', function() {
-            removeCourse(code);
+            removeCourse(code, termId);
         });
         
         selectedCoursesList.appendChild(courseItem);
     }
-    
-    // Remove course from selection
-    function removeCourse(code) {
-        selectedCourses = selectedCourses.filter(course => course.code !== code);
+      // Remove course from selection
+    function removeCourse(code, termId) {
+        // Filter out the specific course from the selected courses
+        selectedCourses = selectedCourses.filter(course => {
+            return !(course.code === code && course.termId === parseInt(termId));
+        });
         
         // Remove from UI
         const courseItems = selectedCoursesList.querySelectorAll('li');
         courseItems.forEach(item => {
-            if (item.dataset.code === code) {
+            if (item.dataset.code === code && item.dataset.termId === termId.toString()) {
                 item.remove();
             }
         });
+          // Create a unique key for this course in this term
+        const courseKey = `${code}_${termId}`;
         
         // Remove from timetable data and group selections
-        delete timetableData[code];
-        delete groupSelections[code];
+        delete timetableData[courseKey];
+        delete groupSelections[courseKey];
         
         // Update preview
         updateTimetablePreview();
     }
-    
-    // Load timetable data for a course
-    function loadTimetableData(courseCode) {
-        const timetableUrl = `course_timetables/${courseCode}_timetable.json`;
+      // Load timetable data for a course
+    function loadTimetableData(courseCode, termId) {
+        // Create a unique key for this course in this term
+        const courseKey = `${courseCode}_${termId}`;
+        
+        // Construct the term folder name based on term ID
+        const termInfo = availableCourses.terms.find(term => term.id === parseInt(termId));
+        if (!termInfo) {
+            console.error(`Term information not found for termId: ${termId}`);
+            return;
+        }
+        
+        const termFolder = `term_${termId}_${termInfo.code}`;
+        const timetableUrl = `course_timetables/${termFolder}/${courseCode}_timetable.json`;
+          console.log(`Loading timetable from: ${timetableUrl}`);
         
         fetch(timetableUrl)
-            .then(response => response.json())
-            .then(data => {
-                timetableData[courseCode] = data;
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`Failed to load timetable: ${response.status} ${response.statusText}`);
+                }
+                return response.json();
+            })
+            .then(data => {                timetableData[courseKey] = data;
                 
                 // Extract available groups for this course
-                extractAvailableGroups(courseCode, data);
+                extractAvailableGroups(courseKey, data);
                 
                 // Update the UI with group selection options
-                updateGroupSelectionUI(courseCode);
+                updateGroupSelectionUI(courseKey);
                 
                 // Update preview
                 updateTimetablePreview();
             })
             .catch(error => {
-                console.error(`Error loading timetable for ${courseCode}:`, error);
-                removeCourse(courseCode); // Remove if we can't load timetable
+                console.error(`Error loading timetable for ${courseCode} (${termId}):`, error);
+                removeCourse(code, termId); // Remove if we can't load timetable
                 alert(`Could not load timetable for ${courseCode}. The course has been removed.`);
             });
     }
-    
-    // Extract available groups from timetable data
-    function extractAvailableGroups(courseCode, data) {
+      // Extract available groups from timetable data
+    function extractAvailableGroups(courseKey, data) {
         if (!data || !data.DataList || !data.DataList.length) {
             return;
         }
+        
+        // Extract the course code from the courseKey (format: code_termId)
+        const courseCode = courseKey.split('_')[0];
         
         const groups = new Map();
         
@@ -270,17 +375,16 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             return a.type.localeCompare(b.type);
         });
-        
-        // Store available groups
-        groupSelections[courseCode].availableGroups = sortedGroups;
+          // Store available groups
+        groupSelections[courseKey].availableGroups = sortedGroups;
     }
     
     // Update UI with group selection options
-    function updateGroupSelectionUI(courseCode) {
-        const courseGroupsDiv = document.getElementById(`groups-${courseCode}`);
+    function updateGroupSelectionUI(courseKey) {
+        const courseGroupsDiv = document.getElementById(`groups-${courseKey}`);
         if (!courseGroupsDiv) return;
         
-        const availableGroups = groupSelections[courseCode].availableGroups;
+        const availableGroups = groupSelections[courseKey].availableGroups;
         
         if (!availableGroups || availableGroups.length === 0) {
             courseGroupsDiv.innerHTML = '<p>No tutorial or lab groups available for this course</p>';
@@ -314,12 +418,11 @@ document.addEventListener('DOMContentLoaded', function() {
             html += `<div class="group-type">
                 <h4>${typeLabel} Groups: <span class="required">*</span></h4>
                 <div class="group-options">`;
-            
-            groups.forEach(group => {
+              groups.forEach(group => {
                 html += `<label class="group-option">
-                    <input type="radio" name="${courseCode}-${type}" 
+                    <input type="radio" name="${courseKey}-${type}" 
                            value="${group.id}" 
-                           data-course="${courseCode}" 
+                           data-course="${courseKey}" 
                            data-group="${group.id}"
                            data-type="${type}"
                            class="group-radio">
@@ -338,34 +441,31 @@ document.addEventListener('DOMContentLoaded', function() {
             radio.addEventListener('change', handleGroupSelectionChange);
         });
     }
-    
-    // Handle group selection change
+      // Handle group selection change
     function handleGroupSelectionChange(event) {
-        const courseCode = event.target.dataset.course;
+        const courseKey = event.target.dataset.course;
         const groupId = event.target.dataset.group;
         const groupType = event.target.dataset.type;
         
-        if (!groupSelections[courseCode]) {
-            groupSelections[courseCode] = { includedGroups: [], availableGroups: [] };
+        if (!groupSelections[courseKey]) {
+            groupSelections[courseKey] = { includedGroups: [], availableGroups: [] };
         }
         
         // Remove any other groups of the same type for this course
-        const updatedGroups = groupSelections[courseCode].includedGroups.filter(g => {
+        const updatedGroups = groupSelections[courseKey].includedGroups.filter(g => {
             // Keep groups that don't start with this type
             return !g.startsWith(`${groupType}`);
         });
-        
-        // Add the new selected group
+          // Add the new selected group
         updatedGroups.push(groupId);
         
         // Update the selected groups
-        groupSelections[courseCode].includedGroups = updatedGroups;
+        groupSelections[courseKey].includedGroups = updatedGroups;
         
         // Update preview
         updateTimetablePreview();
     }
-    
-    // Update timetable preview
+      // Update timetable preview
     function updateTimetablePreview() {
         // Reset preview
         timetablePreview.innerHTML = '';
@@ -374,13 +474,19 @@ document.addEventListener('DOMContentLoaded', function() {
             timetablePreview.innerHTML = '<p class="placeholder-text">Select courses to see a preview of your timetable</p>';
             return;
         }
-        
-        // Get all events from selected courses with applied group filters
+          // Get all events from selected courses with applied group filters
         let allEvents = [];
         
-        Object.entries(timetableData).forEach(([courseCode, data]) => {
+        Object.entries(timetableData).forEach(([courseKey, data]) => {
+            // Extract course code and term ID from the key (format: code_termId)
+            const [courseCode, termId] = courseKey.split('_');
+            
+            // Find term info for display
+            const termInfo = availableCourses.terms.find(term => term.id === parseInt(termId));
+            const termName = termInfo ? termInfo.name : '';
+            
             if (data && data.DataList) {
-                const selectedGroups = groupSelections[courseCode]?.includedGroups || [];
+                const selectedGroups = groupSelections[courseKey]?.includedGroups || [];
                 
                 data.DataList.forEach(event => {
                     // Check if the event belongs to the course
@@ -414,7 +520,8 @@ document.addEventListener('DOMContentLoaded', function() {
                                 start: new Date(event.EventStartTime),
                                 end: new Date(event.EventEndTime),
                                 description: event.EventDescription,
-                                courseCode: courseCode
+                                courseCode: courseCode,
+                                termName: termName
                             });
                         }
                     }
@@ -452,17 +559,19 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Sort events within the day by start time
             eventsByDate[dayIndex].sort((a, b) => a.start - b.start);
-            
-            eventsByDate[dayIndex].forEach(event => {
+              eventsByDate[dayIndex].forEach(event => {
                 const eventElement = document.createElement('div');
                 eventElement.className = 'event';
                 
                 const timeStr = `${formatTime(event.start)} - ${formatTime(event.end)}`;
                 
-                // No need to show the day again within the event details
+                // Add term information to the event
                 eventElement.innerHTML = `
                     <div class="event-time">${timeStr}</div>
-                    <div class="event-description">${event.description}</div>
+                    <div class="event-info">
+                        <div class="event-description">${event.description}</div>
+                        <div class="event-term">${event.termName}</div>
+                    </div>
                 `;
                 
                 timetablePreview.appendChild(eventElement);
@@ -490,27 +599,27 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Validate that all required groups are selected
         const missingSelections = [];
-        
-        selectedCourses.forEach(course => {
+          selectedCourses.forEach(course => {
             const courseCode = course.code;
+            const termId = course.termId;
+            const courseKey = `${courseCode}_${termId}`;
             
             // Skip validation if no groups are available for this course
-            if (!groupSelections[courseCode] || 
-                !groupSelections[courseCode].availableGroups || 
-                groupSelections[courseCode].availableGroups.length === 0) {
+            if (!groupSelections[courseKey] || 
+                !groupSelections[courseKey].availableGroups || 
+                groupSelections[courseKey].availableGroups.length === 0) {
                 return;
             }
-            
-            // Get the group types available for this course
+              // Get the group types available for this course
             const groupTypes = new Set();
-            groupSelections[courseCode].availableGroups.forEach(group => {
+            groupSelections[courseKey].availableGroups.forEach(group => {
                 const type = group.type.replace(/\d+/g, '');
                 groupTypes.add(type);
             });
             
             // Check if a selection has been made for each group type
             groupTypes.forEach(type => {
-                const hasSelectionForType = groupSelections[courseCode].includedGroups.some(groupId => 
+                const hasSelectionForType = groupSelections[courseKey].includedGroups.some(groupId => 
                     groupId.startsWith(type)
                 );
                 
@@ -528,11 +637,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const cal = window.ics();
         let eventCount = 0;
         let totalStudyHours = 0;
-        
-        // Process events from selected courses with applied group filters
-        Object.entries(timetableData).forEach(([courseCode, data]) => {
+          // Process events from selected courses with applied group filters
+        Object.entries(timetableData).forEach(([courseKey, data]) => {
             if (data && data.DataList) {
-                const selectedGroups = groupSelections[courseCode]?.includedGroups || [];
+                // Extract course code from the course key (format: code_termId)
+                const courseCode = courseKey.split('_')[0];
+                
+                const selectedGroups = groupSelections[courseKey]?.includedGroups || [];
                 const filteredEvents = [];
                 
                 // First filter events based on selected groups
@@ -579,10 +690,14 @@ document.addEventListener('DOMContentLoaded', function() {
             alert('No events to download. Please check your course and group selections.');
             return;
         }
-        
-        // Generate file name
-        const coursesList = selectedCourses.map(c => c.code).join('-');
-        const fileName = `swinburne-timetable-${coursesList}.ics`;
+          // Generate file name with term info
+        const coursesWithTerms = selectedCourses.map(c => {
+            // Find the term info
+            const termInfo = availableCourses.terms.find(term => term.id === c.termId);
+            const termCode = termInfo ? termInfo.code : '';
+            return `${c.code}_${termCode}`;
+        });
+        const fileName = `swinburne-timetable-${coursesWithTerms.join('-')}.ics`;
         
         // Download
         cal.download(fileName);

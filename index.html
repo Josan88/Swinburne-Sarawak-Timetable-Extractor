@@ -14,9 +14,14 @@
             <p>Select your courses, choose your specific tutorial/lab groups, and download your personalized timetable as an ICS file</p>
         </header>
         
-        <main>
-            <div class="course-selection">
+        <main>            <div class="course-selection">
                 <h2>Select Courses</h2>
+                <div class="term-selector-container">
+                    <label for="term-selector">Term:</label>
+                    <select id="term-selector">
+                        <option value="">Loading terms...</option>
+                    </select>
+                </div>
                 <div class="search-container">
                     <input type="text" id="course-search" placeholder="Search for a course (e.g., COS10003)">
                     <div id="search-results" class="search-results"></div>

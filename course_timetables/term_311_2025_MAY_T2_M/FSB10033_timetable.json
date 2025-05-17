@@ -1,0 +1,29 @@
+{
+    "DataList": [
+        {
+            "Id": 0,
+            "EventDate": "2025-05-12T00:00:00",
+            "EventStartTime": "2025-05-12T10:00:00",
+            "EventEndTime": "2025-05-12T12:00:00",
+            "EventDescription": "COS60010 - LE1 - 01, Joel Chia Ming Than; B516 - 05/05 to 06/02, 06/16 to 07/07",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-14T00:00:00",
+            "EventStartTime": "2025-05-14T09:00:00",
+            "EventEndTime": "2025-05-14T12:00:00",
+            "EventDescription": "COS60010 - LA1 - 01, Joel Chia Ming Than; E403E405 - 05/07 to 06/04, 06/18 to 07/09",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        }
+    ],
+    "ServiceResult": 0,
+    "ErrorMessage": null,
+    "ExtendedToken": "f3ksI93w7dangJn4GR1JUwB6HenX3YLfWC6ZDF65rzkM0s+QoFDmv7+K/EJ2EcSmiN6dnCDPc6ZYdN4MXF4T1ZTQqDObHDvVaZb27k3v+yyJYtEFkCcYIikTU3TkV10Gc7uuz4UqPe/8mn7utGtbCSB7gMAsLpjuhL7cvpbioH3Vmx3AevjN7zw9HDc4c7UcqG3TLcXxNCeQz9nKBvPKJCVikkIP8uKSgQlhOdCRV5HGpAhKpVTq3QPWBSS0bqCi4OG54RWhe8YUjnjy05d6HUP5CL9zhRVLEfon4ij7LUljR8anGzDvzjkdKdNFnXxrDsOqprwar4df9baHZjaxIok+uEM1vIC+8owCABU9kgSa1lk/FHVBRjDAfvtYygHtNw3/dnxlvjl3Q4vM/Ur8Ye00+DJQmK6FUlW0XHJSwfazvsiCyhGQgVcZFCZ9avzl2RxfKq4owV31X/xzkiLhdWVz59wkl6BR3hjD1YAiGuHW8y304kKeVRiiwodHxm4mil1oN+PPYdIhq5tekQ353MxeKWpJAkaTRpcvwgzDIj9hBuuw2cCp1jIVyf5sXFSvKawxzxFlSfjSC8TDn3Hcbw+eEXJaHZh/4CAz76VUuqAVvH6eYe7lHCUQQJCu4ACeFwIcjL/WzXNW5pGsFoalmKDsfUYoFQ52F/HR+r14PUZY2AOU2xMN7094e18vv8JvsRepJSVXRdQRJs1InjkOgaEl4fpZOJi1hlHL9+DIrX2qB2k2N3RT2ZPonlCxCfMsIbb5kn1YVteJg1bQmqJW/AN+xo63+UPvsSx0HAaqk3AiDcCcYk+NLcy69SuKaQPiFgh6Td7KAcCL81PwHnqIJ8sZnf1q8O6syhFCh589FTmK75FsNZXwkOr1LZIZ0ad4SQJz8Yb/2pO1AzEF91jpbdI7CiSKuoE12Y/GH4Ywms1zW2eJUul6K97rZGrnTWUWGH40GrPQKKXEsJ0/uF8bekqb3XNXJuC7ECSwGdfq2KRxlMSWSvUvZ+TyCIco+E0U5ai1qekEUaEo6Rp0FskpN5H7SqqPoFL4E5y6JHLWueURNmlXcOgljpqzmX6iRJh3HORAaMcHucUc7jnTUNZAn5dD83rOlBAlKutrA1b6dRyPga07Ilh0wXJVZHpK/Kxw/Z2Yuqj/JLPxwbVUp+oLyrye1zHW6bh4VJRbze0U6zkZkPl28cXSnjZxgovbJSB/B5po8YeM2PXN2s1lEHSUxO6nj6x8qZYt84nRnNNZzZrIwgYYa3aZP/LjIfp7xwKOQHC77ZSnra3Tz4nRRtgXJfqMFysCK74ireh37snhDnJt3FaGXCL0d7U5k7VFhecPB8y/70omVM+TwvaB+56NJ0RHPeogJcJAmOTpzXmUfJuRU+CBFr0ZATQ4zkq8IHntmNo7Fm0s8bGOX2mPQctgaR/WWtQkF/HHKNtFpHMIt4Fa8nrPS4a6v+W8wEJEC0LOG+xEY/6UQ7MjAxTEfW3sFTjuD5quLCfy3red01p5VW1Qfv5MPRaJgDWl6vIQ6Fg2HAqVnxckmjUqxoKo76L0Jvch2bZ1Ncbi32I5cvqmUBOlJf/QSQFqWcXd5GzslyvTV1QxAzs032jIq8JGT8ZycqlpydiB9cNcJjG1xDx6hReL02uEO1lHe0ktRVHK37c1OoGHyvx2kotkRSYxQrjN6esIr5Exaumv6kC1x5+jFPPlUUBw4SkAeS7CmB34PzN3lPDc7JKxc6fOog3nsGvhirGAhxZ9jQbSdEW/iYEdK4wntl3OCM+geh/ydI9tDWCVi5gGdGDQZf2X7oVigLR6P18n/46rgt3WghkTqdgewH/4Zzu0+P8ZZPy6rlsmk99P8WVjqUz7C/YQYO5zV1UCEAjD5pxxY1rWGIDvQqlKk+rBJWvWXfITEwA3jpecNYcbyTwYaICK2ShJXA3Jl5SlDg=="
+}

@@ -1,257 +1,4460 @@
 {
-    "165": "DDD10001",
-    "174": "DDD30018",
-    "973": "DDA221",
-    "170": "DDD20022",
-    "177": "DDD30028",
-    "147": "DBC121",
-    "7": "ACC30008",
-    "143": "DBB111",
-    "27": "BCH30003",
-    "1067": "QSD213",
-    "93": "COS20083",
-    "943": "DBA331",
-    "795": "FIN30020",
-    "208": "EEE30001",
-    "8": "ACC30009",
-    "823": "BIO30009",
-    "997": "COS40007",
-    "447": "INB20012",
-    "9": "ACC30010",
-    "522": "MPU2133",
-    "527": "MPU3143",
-    "1028": "CSM80015",
-    "162": "DCO20001",
-    "983": "BUS30032",
-    "991": "INF10024",
-    "1104": "BUS10014",
-    "942": "DBL233",
-    "1135": "MDA20028",
-    "988": "MGT20008",
-    "538": "MTH10012",
-    "68": "CHE10001",
-    "207": "EEE20006",
-    "925": "QSB30014",
-    "1069": "QSD221",
-    "91": "COS20019",
-    "150": "DBC311",
-    "884": "DDD30047",
-    "883": "DDD30048",
-    "4": "ACC20013",
-    "77": "COS10003",
-    "78": "COS10004",
-    "995": "COS30049",
-    "992": "COS40005",
-    "158": "DCO10001",
-    "28": "BIO10001",
-    "909": "QSB10003",
-    "1068": "QSD215",
-    "1070": "QSD225",
-    "1064": "QSD126",
-    "916": "QSB20004",
-    "924": "QSB30004",
-    "1058": "QSD112",
-    "1062": "QSD122",
-    "917": "QSB20005",
-    "513": "MKT20025",
-    "986": "MGT10009",
-    "1053": "DEC223",
-    "1111": "MDA10018",
-    "568": "RME30002",
-    "495": "MEE30002",
-    "910": "QSB10013",
-    "915": "QSB20003",
-    "1102": "BUS10015",
-    "145": "DBB311",
-    "1099": "CSS303",
-    "83": "COS10022",
-    "994": "COS20031",
-    "200": "EDU60014",
-    "1011": "MEE20007",
-    "779": "DCO30002",
-    "128": "CVE30002",
-    "199": "EDU60005",
-    "159": "DCO10002",
-    "990": "HRM30012",
-    "976": "DDA312",
-    "182": "DDM20003",
-    "175": "DDD30021",
-    "1086": "CSS102",
-    "427": "HRM20016",
-    "151": "DBE211",
-    "984": "ECO10005",
-    "209": "EEE30002",
-    "563": "PHY40001",
-    "561": "PHY10001",
-    "52": "CEE20005",
-    "1060": "QSD114",
-    "519": "MME40001",
-    "1017": "MME30002",
-    "221": "ENG10002",
-    "222": "ENG10003",
-    "112": "CSM80006",
-    "982": "QSB11001",
-    "1007": "ENG20009",
-    "1009": "ENG30002",
-    "604": "TNE30018",
-    "1116": "SOC10005",
-    "230": "ENV30001",
-    "60": "CEE30008",
-    "231": "ENV30003",
-    "1031": "CSM80016",
-    "794": "FIN20016",
-    "987": "MGT10010",
-    "947": "EAT40003",
-    "948": "EAT40004",
-    "224": "ENG40001",
-    "821": "ENG40003",
-    "225": "ENG40002",
-    "822": "ENG40004",
-    "937": "DBA132",
-    "941": "DBA232",
-    "1": "ACC10007",
-    "2": "ACC10008",
-    "241": "FIN20014",
-    "243": "FIN30014",
-    "238": "FIN10002",
-    "792": "FIN30021",
-    "558": "PEH20002",
-    "585": "STA10003",
-    "89": "COS20015",
-    "940": "DBA233",
-    "939": "DBA231",
-    "1087": "CSS103",
-    "154": "DBI211",
-    "131": "CVE40001",
-    "446": "INB20009",
-    "797": "INB30025",
-    "826": "MDA10008",
-    "1079": "NPS30004",
-    "985": "HRM10004",
-    "220": "ENG10001",
-    "906": "ICT10022",
-    "904": "ICT30017",
-    "1133": "ENT10005",
-    "972": "DDA214",
-    "180": "DDM10005",
-    "1052": "DEC222",
-    "957": "BIO20006",
-    "149": "DBC212",
-    "213": "EEE40002",
-    "510": "MKT20021",
-    "926": "QSB30017",
-    "1109": "MPU3273",
-    "1110": "MPU2273",
-    "100": "COS30018",
-    "971": "DDA213",
-    "105": "COS30043",
-    "443": "INB10002",
-    "996": "TNE20003",
-    "938": "DBA134",
-    "101": "COS30019",
-    "946": "DBA335",
-    "26": "BCH20002",
-    "908": "QSB10002",
-    "607": "MEE40050",
-    "48": "CEE20001",
-    "967": "DDA112",
-    "907": "QSB10001",
-    "918": "QSB20006",
-    "965": "DDA121",
-    "966": "DDA111",
-    "144": "DBB221",
-    "828": "MDA10001",
-    "80": "COS10009",
-    "945": "DBA334",
-    "152": "DBF111",
-    "592": "SWE30011",
-    "97": "COS30015",
-    "1094": "CSS206",
-    "463": "LAW20019",
-    "465": "LAW30005",
-    "800": "MGT30008",
-    "227": "ENT20006",
-    "539": "MTH10013",
-    "1012": "MEE30005",
-    "500": "MEE40003",
-    "3": "ACC20007",
-    "245": "FIN30016",
-    "494": "MEE30001",
-    "156": "DBM121",
-    "784": "MKT20031",
-    "989": "MKT10009",
-    "509": "MKT20019",
-    "515": "MKT30016",
-    "1057": "QSD111",
-    "1061": "QSD121",
-    "1137": "MDA20026",
-    "183": "DDM30001",
-    "184": "DDM30005",
-    "975": "DDA311",
-    "176": "DDD30022",
-    "195": "EDU60001",
-    "598": "TNE10005",
-    "600": "TNE20002",
-    "599": "TNE10006",
-    "87": "COS20007",
-    "796": "MGT20007",
-    "783": "DCO10003",
-    "963": "MPU2183",
-    "955": "MPU3183",
-    "956": "MPU3193",
-    "470": "MAT4101",
-    "160": "DCO10004",
-    "1054": "DEC224",
-    "146": "DBC111",
-    "825": "DBE221",
-    "59": "CEE30007",
-    "56": "CEE30004",
-    "58": "CEE30006",
-    "62": "CEE40002",
-    "64": "CEE40004",
-    "1029": "CSM80013",
-    "1085": "CSS101",
-    "1089": "CSS201",
-    "777": "DDD30013",
-    "54": "CEE30002",
-    "140": "DBA111",
-    "1022": "EEE40015",
-    "1072": "QSD229",
-    "137": "CVE80001",
-    "484": "MDA30012",
-    "520": "MME80001",
-    "571": "RME40003",
-    "1049": "DEC213",
-    "603": "TNE30012",
-    "886": "COS30047",
-    "1046": "DEC211",
-    "1136": "MDA30021",
-    "903": "SWE30003",
-    "998": "SWE40006",
-    "595": "SWE40002",
-    "546": "MTH20010",
-    "507": "MGT30005",
-    "132": "CVE40002",
-    "491": "MEE20004",
-    "981": "BUS30031",
-    "451": "INB30020",
-    "1090": "CSS202",
-    "6": "ACC30005",
-    "980": "COS10025",
-    "31": "BIO20002",
-    "1047": "DEC122",
-    "488": "MEE20001",
-    "121": "CVE20001",
-    "129": "CVE30003",
-    "161": "DCO10005",
-    "164": "DCO20009",
-    "181": "DDM10006",
-    "1056": "DEC312",
-    "1043": "DEC111",
-    "127": "CVE30001",
-    "999": "ICT20025",
-    "1016": "MEE20008",
-    "974": "DDA222",
-    "608": "CVE20008",
-    "979": "COS10026"
+    "courses": [
+        {
+            "id": 165,
+            "code": "DDD10001",
+            "name": "20th Century Design",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 174,
+            "code": "DDD30018",
+            "name": "3D Animation Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 973,
+            "code": "DDA221",
+            "name": "3D Modelling and Animation",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 170,
+            "code": "DDD20022",
+            "name": "3D Modelling for Objects and Environments",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 177,
+            "code": "DDD30028",
+            "name": "3D Rigging and Animation Techniques",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 147,
+            "code": "DBC121",
+            "name": "Academic English",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 7,
+            "code": "ACC30008",
+            "name": "Accounting Theory",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 143,
+            "code": "DBB111",
+            "name": "Acquiring Business Awareness",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 27,
+            "code": "BCH30003",
+            "name": "Advanced Biochemistry",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1067,
+            "code": "QSD213",
+            "name": "Advanced Building Services",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 93,
+            "code": "COS20083",
+            "name": "Advanced Data Analytics",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 943,
+            "code": "DBA331",
+            "name": "Advanced Management Accounting",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 795,
+            "code": "FIN30020",
+            "name": "Alternative Investments",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 208,
+            "code": "EEE30001",
+            "name": "Analogue Electronics 2",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 8,
+            "code": "ACC30009",
+            "name": "Analysis for Competitive Advantage",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 823,
+            "code": "BIO30009",
+            "name": "Applications of Bioinformatics",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 997,
+            "code": "COS40007",
+            "name": "Artificial Intelligence for Engineering",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 447,
+            "code": "INB20012",
+            "name": "Asian Regionalism and Global Business",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 9,
+            "code": "ACC30010",
+            "name": "Auditing",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 522,
+            "code": "MPU2133",
+            "name": "Bahasa Melayu Komunikasi 1",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 527,
+            "code": "MPU3143",
+            "name": "Bahasa Melayu Komunikasi 2",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1028,
+            "code": "CSM80015",
+            "name": "BIM and Digital Twins for Sustainable Buildings and Infrastructure",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 162,
+            "code": "DCO20001",
+            "name": "Brand and Identity Design",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 983,
+            "code": "BUS30032",
+            "name": "Business Consulting Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 991,
+            "code": "INF10024",
+            "name": "Business Digitalisation",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1104,
+            "code": "BUS10014",
+            "name": "Business for Sustainability, Social Change and Impact",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 942,
+            "code": "DBL233",
+            "name": "Business Law",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1135,
+            "code": "MDA20028",
+            "name": "Business of Media and Entrepreneurship",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 988,
+            "code": "MGT20008",
+            "name": "Business, Society and Sustainability",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 538,
+            "code": "MTH10012",
+            "name": "Calculus and Applications",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 68,
+            "code": "CHE10001",
+            "name": "Chemistry 1",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 207,
+            "code": "EEE20006",
+            "name": "Circuits and Electronics 1",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 925,
+            "code": "QSB30014",
+            "name": "Civil Engineering Works Measurement",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1069,
+            "code": "QSD221",
+            "name": "Civil Engineering Works Measurement",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 91,
+            "code": "COS20019",
+            "name": "Cloud Computing Architecture",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 150,
+            "code": "DBC311",
+            "name": "Communicating in the Workplace",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 884,
+            "code": "DDD30047",
+            "name": "Communication Design Capstone Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 883,
+            "code": "DDD30048",
+            "name": "Communication Design Strategy",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 4,
+            "code": "ACC20013",
+            "name": "Company Accounting",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 77,
+            "code": "COS10003",
+            "name": "Computer and Logic Essentials",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 78,
+            "code": "COS10004",
+            "name": "Computer Systems",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 995,
+            "code": "COS30049",
+            "name": "Computing Technology Innovation Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 992,
+            "code": "COS40005",
+            "name": "Computing Technology Project A",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 158,
+            "code": "DCO10001",
+            "name": "Concepts and Narratives",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 28,
+            "code": "BIO10001",
+            "name": "Concepts of Biology",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 909,
+            "code": "QSB10003",
+            "name": "Construction Economics",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1068,
+            "code": "QSD215",
+            "name": "Construction Economics 1",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1070,
+            "code": "QSD225",
+            "name": "Construction Economics 2",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1064,
+            "code": "QSD126",
+            "name": "Construction Law and Contracts",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 916,
+            "code": "QSB20004",
+            "name": "Construction Measurement 2",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 924,
+            "code": "QSB30004",
+            "name": "Construction Measurement 4",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1058,
+            "code": "QSD112",
+            "name": "Construction Technology 1",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1062,
+            "code": "QSD122",
+            "name": "Construction Technology 2",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 917,
+            "code": "QSB20005",
+            "name": "Construction Technology 2",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 513,
+            "code": "MKT20025",
+            "name": "Consumer Behaviour",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 986,
+            "code": "MGT10009",
+            "name": "Contemporary Management Principles",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1053,
+            "code": "DEC223",
+            "name": "Contemporary Perspectives of Learning and Development for Early Childhood",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1111,
+            "code": "MDA10018",
+            "name": "Content Creator Lab",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 568,
+            "code": "RME30002",
+            "name": "Control and Automation",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 495,
+            "code": "MEE30002",
+            "name": "Control Engineering",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 910,
+            "code": "QSB10013",
+            "name": "Cost Estimating",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 915,
+            "code": "QSB20003",
+            "name": "Cost Planning and Control",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1102,
+            "code": "BUS10015",
+            "name": "Creative Mindset and Entrepreneurship",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 145,
+            "code": "DBB311",
+            "name": "Critical Thinking in Management",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1099,
+            "code": "CSS303",
+            "name": "Cyber Ethics",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 83,
+            "code": "COS10022",
+            "name": "Data Science Principles",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 994,
+            "code": "COS20031",
+            "name": "Database Design Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 200,
+            "code": "EDU60014",
+            "name": "Design and Delivery for Online Learning",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1011,
+            "code": "MEE20007",
+            "name": "Design and Product Visualisation Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 779,
+            "code": "DCO30002",
+            "name": "Design for Production",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 128,
+            "code": "CVE30002",
+            "name": "Design of Steel Structures",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 199,
+            "code": "EDU60005",
+            "name": "Developing Inclusive Learning and Teaching Practice",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 159,
+            "code": "DCO10002",
+            "name": "Digital Design",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 990,
+            "code": "HRM30012",
+            "name": "Digital Management and the Future of Work",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 976,
+            "code": "DDA312",
+            "name": "Digital Media Design Project 1",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 182,
+            "code": "DDM20003",
+            "name": "Digital Video Camera Techniques",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 175,
+            "code": "DDD30021",
+            "name": "Digital Video Compositing",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1086,
+            "code": "CSS102",
+            "name": "Discrete Mathematics and Calculus",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 427,
+            "code": "HRM20016",
+            "name": "Dynamics of Diversity in Organisations",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 151,
+            "code": "DBE211",
+            "name": "Economics",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 984,
+            "code": "ECO10005",
+            "name": "Economics for Business Decision Making",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 209,
+            "code": "EEE30002",
+            "name": "Electrical Power Systems",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 563,
+            "code": "PHY40001",
+            "name": "Electromagnetic Waves",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 561,
+            "code": "PHY10001",
+            "name": "Energy and Motion",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 52,
+            "code": "CEE20005",
+            "name": "Engineering Chemistry",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1060,
+            "code": "QSD114",
+            "name": "Engineering Land Surveying",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 519,
+            "code": "MME40001",
+            "name": "Engineering Management 2",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1017,
+            "code": "MME30002",
+            "name": "Engineering Management Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 221,
+            "code": "ENG10002",
+            "name": "Engineering Materials",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 222,
+            "code": "ENG10003",
+            "name": "Engineering Mechanics",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 112,
+            "code": "CSM80006",
+            "name": "Engineering Project Management",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 982,
+            "code": "QSB11001",
+            "name": "Engineering Survey",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1007,
+            "code": "ENG20009",
+            "name": "Engineering Technology Inquiry Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1009,
+            "code": "ENG30002",
+            "name": "Engineering Technology Sustainability Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 604,
+            "code": "TNE30018",
+            "name": "Enterprise Network Server Administration",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1116,
+            "code": "SOC10005",
+            "name": "Environment and Society: Problems and Solutions",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 230,
+            "code": "ENV30001",
+            "name": "Environmental Biology",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 60,
+            "code": "CEE30008",
+            "name": "Environmental Engineering",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 231,
+            "code": "ENV30003",
+            "name": "Environmental Management",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1031,
+            "code": "CSM80016",
+            "name": "Estimating and Project Costing",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 794,
+            "code": "FIN20016",
+            "name": "Ethics and International Finance",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 987,
+            "code": "MGT10010",
+            "name": "Ethics of Innovation",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 947,
+            "code": "EAT40003",
+            "name": "Final Year Research and Development Project 1 (ENG/CS)",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 948,
+            "code": "EAT40004",
+            "name": "Final Year Research and Development Project 2 (ENG/CS)",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 224,
+            "code": "ENG40001",
+            "name": "Final Year Research Project 1",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 821,
+            "code": "ENG40003",
+            "name": "Final Year Research Project 1 (Eng/Bus)",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 225,
+            "code": "ENG40002",
+            "name": "Final Year Research Project 2",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 822,
+            "code": "ENG40004",
+            "name": "Final Year Research Project 2 (Eng/Bus)",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 937,
+            "code": "DBA132",
+            "name": "Financial Accounting I",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 941,
+            "code": "DBA232",
+            "name": "Financial Accounting II",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1,
+            "code": "ACC10007",
+            "name": "Financial Information for Decision Making",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 2,
+            "code": "ACC10008",
+            "name": "Financial Information Systems",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 241,
+            "code": "FIN20014",
+            "name": "Financial Management",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 243,
+            "code": "FIN30014",
+            "name": "Financial Risk Management",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 238,
+            "code": "FIN10002",
+            "name": "Financial Statistics",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 792,
+            "code": "FIN30021",
+            "name": "Fixed Income and Debt Markets",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 558,
+            "code": "PEH20002",
+            "name": "Food Science",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 585,
+            "code": "STA10003",
+            "name": "Foundations of Statistics",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 89,
+            "code": "COS20015",
+            "name": "Fundamentals of Data Management",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 940,
+            "code": "DBA233",
+            "name": "Fundamentals of Financial Management",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 939,
+            "code": "DBA231",
+            "name": "Fundamentals of Management Accounting",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1087,
+            "code": "CSS103",
+            "name": "Fundamentals of Networking",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 154,
+            "code": "DBI211",
+            "name": "Fundamentals of Web Technology",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 131,
+            "code": "CVE40001",
+            "name": "Geotechnical Engineering",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 446,
+            "code": "INB20009",
+            "name": "Global and Digital Marketplaces",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 797,
+            "code": "INB30025",
+            "name": "Global Business across Cultures",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 826,
+            "code": "MDA10008",
+            "name": "Global Media Industries",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1079,
+            "code": "NPS30004",
+            "name": "Grand Challenges in Science",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 985,
+            "code": "HRM10004",
+            "name": "Human Resource Practices",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 220,
+            "code": "ENG10001",
+            "name": "Humanitarian Engineering Design Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 906,
+            "code": "ICT10022",
+            "name": "ICT Inquiry Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 904,
+            "code": "ICT30017",
+            "name": "ICT Project A",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1133,
+            "code": "ENT10005",
+            "name": "Ideas, Opportunities and Ventures",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 972,
+            "code": "DDA214",
+            "name": "Identity Design",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 180,
+            "code": "DDM10005",
+            "name": "Imaging for Narrative and Storyboards",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1052,
+            "code": "DEC222",
+            "name": "Imagining the World through the Arts",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 957,
+            "code": "BIO20006",
+            "name": "Industrial Microbiology",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 149,
+            "code": "DBC212",
+            "name": "Innovation and Change",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 213,
+            "code": "EEE40002",
+            "name": "Integrated Circuit Design",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 510,
+            "code": "MKT20021",
+            "name": "Integrated Marketing Communication",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 926,
+            "code": "QSB30017",
+            "name": "Integrated Project 2",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1109,
+            "code": "MPU3273",
+            "name": "Integrity and Anti-Corruption",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1110,
+            "code": "MPU2273",
+            "name": "Integrity and Anti-Corruption",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 100,
+            "code": "COS30018",
+            "name": "Intelligent Systems",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 971,
+            "code": "DDA213",
+            "name": "Interactive Design",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 105,
+            "code": "COS30043",
+            "name": "Interface Design and Development",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 443,
+            "code": "INB10002",
+            "name": "International Business Operations",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 996,
+            "code": "TNE20003",
+            "name": "Internet and Cybersecurity for Engineering Applications",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 938,
+            "code": "DBA134",
+            "name": "Introduction to Accounting Information Systems",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 101,
+            "code": "COS30019",
+            "name": "Introduction to Artificial Intelligence",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 946,
+            "code": "DBA335",
+            "name": "Introduction to Auditing",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 26,
+            "code": "BCH20002",
+            "name": "Introduction to Biochemistry",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 908,
+            "code": "QSB10002",
+            "name": "Introduction to Building Services",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 607,
+            "code": "MEE40050",
+            "name": "Introduction to Building Services Engineering",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 48,
+            "code": "CEE20001",
+            "name": "Introduction to Chemical Engineering Design",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 967,
+            "code": "DDA112",
+            "name": "Introduction to Concepts and Narratives",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 907,
+            "code": "QSB10001",
+            "name": "Introduction to Construction",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 918,
+            "code": "QSB20006",
+            "name": "Introduction to Construction Law and Contracts",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 965,
+            "code": "DDA121",
+            "name": "Introduction to Design Principles",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 966,
+            "code": "DDA111",
+            "name": "Introduction to Digital Design",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 144,
+            "code": "DBB221",
+            "name": "Introduction to Management",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 828,
+            "code": "MDA10001",
+            "name": "Introduction to Media Studies",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 80,
+            "code": "COS10009",
+            "name": "Introduction to Programming",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 945,
+            "code": "DBA334",
+            "name": "Introduction to Taxation",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 152,
+            "code": "DBF111",
+            "name": "Introductory Mathematics",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 592,
+            "code": "SWE30011",
+            "name": "IoT Programming",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 97,
+            "code": "COS30015",
+            "name": "IT Security",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1094,
+            "code": "CSS206",
+            "name": "IT Security",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 463,
+            "code": "LAW20019",
+            "name": "Law of Commerce",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 465,
+            "code": "LAW30005",
+            "name": "Law of Employment",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 800,
+            "code": "MGT30008",
+            "name": "Leadership Practice and Skills",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 227,
+            "code": "ENT20006",
+            "name": "Lean Startup Springboard",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 539,
+            "code": "MTH10013",
+            "name": "Linear Algebra and Applications",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1012,
+            "code": "MEE30005",
+            "name": "Machine Design Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 500,
+            "code": "MEE40003",
+            "name": "Machine Dynamics",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 3,
+            "code": "ACC20007",
+            "name": "Management Accounting for Planning and Control",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 245,
+            "code": "FIN30016",
+            "name": "Management of Investment Portfolios",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 494,
+            "code": "MEE30001",
+            "name": "Manufacturing Engineering",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 156,
+            "code": "DBM121",
+            "name": "Marketing",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 784,
+            "code": "MKT20031",
+            "name": "Marketing and Innovation",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 989,
+            "code": "MKT10009",
+            "name": "Marketing and the Consumer Experience",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 509,
+            "code": "MKT20019",
+            "name": "Marketing Research and Analytics",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 515,
+            "code": "MKT30016",
+            "name": "Marketing Strategy and Planning",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1057,
+            "code": "QSD111",
+            "name": "Measurement 1",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1061,
+            "code": "QSD121",
+            "name": "Measurement 2",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1137,
+            "code": "MDA20026",
+            "name": "Media Analytics and Visualisation",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 183,
+            "code": "DDM30001",
+            "name": "Motion Design Capstone Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 184,
+            "code": "DDM30005",
+            "name": "Motion Design New Technologies",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 975,
+            "code": "DDA311",
+            "name": "Motion Graphics Design",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 176,
+            "code": "DDD30022",
+            "name": "Motion Graphics Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 195,
+            "code": "EDU60001",
+            "name": "Nature of Learning and Teaching",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 598,
+            "code": "TNE10005",
+            "name": "Network Administration",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 600,
+            "code": "TNE20002",
+            "name": "Network Routing Principles",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 599,
+            "code": "TNE10006",
+            "name": "Networks and Switching",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 87,
+            "code": "COS20007",
+            "name": "Object Oriented Programming",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 796,
+            "code": "MGT20007",
+            "name": "Organisational Behaviour",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 783,
+            "code": "DCO10003",
+            "name": "Packaging Design",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 963,
+            "code": "MPU2183",
+            "name": "Penghayatan Etika dan Peradaban",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 955,
+            "code": "MPU3183",
+            "name": "Penghayatan Etika dan Peradaban",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 956,
+            "code": "MPU3193",
+            "name": "Philosophy and Current Issues",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 470,
+            "code": "MAT4101",
+            "name": "Phonology and Grammar for English Teachers",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 160,
+            "code": "DCO10004",
+            "name": "Photography for Design",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1054,
+            "code": "DEC224",
+            "name": "Play and Environment",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 146,
+            "code": "DBC111",
+            "name": "Preparatory English",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 825,
+            "code": "DBE221",
+            "name": "Principles of Economics",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 59,
+            "code": "CEE30007",
+            "name": "Process Control and Measurements",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 56,
+            "code": "CEE30004",
+            "name": "Process Heat Transfer",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 58,
+            "code": "CEE30006",
+            "name": "Process Modelling and Optimisation",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 62,
+            "code": "CEE40002",
+            "name": "Process Plant Design 1",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 64,
+            "code": "CEE40004",
+            "name": "Process Plant Design 2",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1029,
+            "code": "CSM80013",
+            "name": "Procurement, Tendering and Contracts",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1085,
+            "code": "CSS101",
+            "name": "Programming 1",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1089,
+            "code": "CSS201",
+            "name": "Programming 2",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 777,
+            "code": "DDD30013",
+            "name": "Publication Design",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 54,
+            "code": "CEE30002",
+            "name": "Reaction Engineering",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 140,
+            "code": "DBA111",
+            "name": "Recording Financial Transactions",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1022,
+            "code": "EEE40015",
+            "name": "Renewable Energy",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1072,
+            "code": "QSD229",
+            "name": "Research Methods",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 137,
+            "code": "CVE80001",
+            "name": "Research Paper",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 484,
+            "code": "MDA30012",
+            "name": "Researching Social Media Publics",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 520,
+            "code": "MME80001",
+            "name": "Resource Planning and Management",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 571,
+            "code": "RME40003",
+            "name": "Robot System Design",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1049,
+            "code": "DEC213",
+            "name": "Science and Technology",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 603,
+            "code": "TNE30012",
+            "name": "Secure Remote Access Networks",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 886,
+            "code": "COS30047",
+            "name": "Security Operations Centre",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1046,
+            "code": "DEC211",
+            "name": "Social and Emotional Learning",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1136,
+            "code": "MDA30021",
+            "name": "Social Media Industry Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 903,
+            "code": "SWE30003",
+            "name": "Software Architectures and Design",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 998,
+            "code": "SWE40006",
+            "name": "Software Deployment and Evolution",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 595,
+            "code": "SWE40002",
+            "name": "Software Engineering Project B",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 546,
+            "code": "MTH20010",
+            "name": "Statistics and Computation for Engineering",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 507,
+            "code": "MGT30005",
+            "name": "Strategic Planning",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 132,
+            "code": "CVE40002",
+            "name": "Structural Design of Low Rise Buildings",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 491,
+            "code": "MEE20004",
+            "name": "Structural Mechanics",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 981,
+            "code": "BUS30031",
+            "name": "Sustainable Business Practice",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 451,
+            "code": "INB30020",
+            "name": "Sustainable International Business Strategy",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1090,
+            "code": "CSS202",
+            "name": "System Analysis and Design",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 6,
+            "code": "ACC30005",
+            "name": "Taxation",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 980,
+            "code": "COS10025",
+            "name": "Technology in an Indigenous Context Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 31,
+            "code": "BIO20002",
+            "name": "The Microbial World",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1047,
+            "code": "DEC122",
+            "name": "The World of Maths",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 488,
+            "code": "MEE20001",
+            "name": "Thermodynamics",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 121,
+            "code": "CVE20001",
+            "name": "Topographical Engineering",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 129,
+            "code": "CVE30003",
+            "name": "Transport Engineering",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 161,
+            "code": "DCO10005",
+            "name": "Typography",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 164,
+            "code": "DCO20009",
+            "name": "Typography for Print and Interactive Publication",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 181,
+            "code": "DDM10006",
+            "name": "Typography for Screen and Motion",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1056,
+            "code": "DEC312",
+            "name": "Understanding and Supporting Behaviour",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1043,
+            "code": "DEC111",
+            "name": "Understanding Language and Literacy",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 127,
+            "code": "CVE30001",
+            "name": "Urban Water Resources",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 999,
+            "code": "ICT20025",
+            "name": "User Experience Design Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 1016,
+            "code": "MEE20008",
+            "name": "Vibration, Data Analysis and Data Decomposition",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 974,
+            "code": "DDA222",
+            "name": "Video Production Techniques",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 608,
+            "code": "CVE20008",
+            "name": "Wastewater Engineering",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 979,
+            "code": "COS10026",
+            "name": "Web Technology Project",
+            "term_id": 303,
+            "term_name": "2025 MAR S1",
+            "term_code": "2025_MAR_S1"
+        },
+        {
+            "id": 249,
+            "code": "FSB10030",
+            "name": "Accounting",
+            "term_id": 304,
+            "term_name": "2025 MAR S1 F",
+            "term_code": "2025_MAR_S1_F"
+        },
+        {
+            "id": 256,
+            "code": "FSE10022",
+            "name": "Calculus",
+            "term_id": 304,
+            "term_name": "2025 MAR S1 F",
+            "term_code": "2025_MAR_S1_F"
+        },
+        {
+            "id": 255,
+            "code": "FSE10021",
+            "name": "Chemistry",
+            "term_id": 304,
+            "term_name": "2025 MAR S1 F",
+            "term_code": "2025_MAR_S1_F"
+        },
+        {
+            "id": 236,
+            "code": "FCL10003",
+            "name": "Creative Thinking and Communication Skills",
+            "term_id": 304,
+            "term_name": "2025 MAR S1 F",
+            "term_code": "2025_MAR_S1_F"
+        },
+        {
+            "id": 253,
+            "code": "FSD10040",
+            "name": "Design Studies",
+            "term_id": 304,
+            "term_name": "2025 MAR S1 F",
+            "term_code": "2025_MAR_S1_F"
+        },
+        {
+            "id": 254,
+            "code": "FSD10041",
+            "name": "Drawing and Illustration",
+            "term_id": 304,
+            "term_name": "2025 MAR S1 F",
+            "term_code": "2025_MAR_S1_F"
+        },
+        {
+            "id": 250,
+            "code": "FSB10031",
+            "name": "Economics",
+            "term_id": 304,
+            "term_name": "2025 MAR S1 F",
+            "term_code": "2025_MAR_S1_F"
+        },
+        {
+            "id": 234,
+            "code": "FCL10001",
+            "name": "Foundation English",
+            "term_id": 304,
+            "term_name": "2025 MAR S1 F",
+            "term_code": "2025_MAR_S1_F"
+        },
+        {
+            "id": 237,
+            "code": "FCT10010",
+            "name": "Information Technology",
+            "term_id": 304,
+            "term_name": "2025 MAR S1 F",
+            "term_code": "2025_MAR_S1_F"
+        },
+        {
+            "id": 258,
+            "code": "FSE10024",
+            "name": "Introduction to Physics",
+            "term_id": 304,
+            "term_name": "2025 MAR S1 F",
+            "term_code": "2025_MAR_S1_F"
+        },
+        {
+            "id": 233,
+            "code": "FCE10020",
+            "name": "Introductory Mathematics",
+            "term_id": 304,
+            "term_name": "2025 MAR S1 F",
+            "term_code": "2025_MAR_S1_F"
+        },
+        {
+            "id": 257,
+            "code": "FSE10023",
+            "name": "Linear Algebra",
+            "term_id": 304,
+            "term_name": "2025 MAR S1 F",
+            "term_code": "2025_MAR_S1_F"
+        },
+        {
+            "id": 252,
+            "code": "FSB10033",
+            "name": "Marketing",
+            "term_id": 304,
+            "term_name": "2025 MAR S1 F",
+            "term_code": "2025_MAR_S1_F"
+        },
+        {
+            "id": 261,
+            "code": "FST10012",
+            "name": "Mathematics for Computing",
+            "term_id": 304,
+            "term_name": "2025 MAR S1 F",
+            "term_code": "2025_MAR_S1_F"
+        },
+        {
+            "id": 262,
+            "code": "FST10013",
+            "name": "Multimedia",
+            "term_id": 304,
+            "term_name": "2025 MAR S1 F",
+            "term_code": "2025_MAR_S1_F"
+        },
+        {
+            "id": 263,
+            "code": "FST10014",
+            "name": "Programming",
+            "term_id": 304,
+            "term_name": "2025 MAR S1 F",
+            "term_code": "2025_MAR_S1_F"
+        },
+        {
+            "id": 47,
+            "code": "BUS80021",
+            "name": "Business Research Thesis",
+            "term_id": 308,
+            "term_name": "2025 MAR T1",
+            "term_code": "2025_MAR_T1"
+        },
+        {
+            "id": 612,
+            "code": "MGT80002",
+            "name": "Business Strategy",
+            "term_id": 308,
+            "term_name": "2025 MAR T1",
+            "term_code": "2025_MAR_T1"
+        },
+        {
+            "id": 459,
+            "code": "INF80042",
+            "name": "Governing Technology for Business Environments",
+            "term_id": 308,
+            "term_name": "2025 MAR T1",
+            "term_code": "2025_MAR_T1"
+        },
+        {
+            "id": 791,
+            "code": "MGT80005",
+            "name": "Leadership for Innovation",
+            "term_id": 308,
+            "term_name": "2025 MAR T1",
+            "term_code": "2025_MAR_T1"
+        },
+        {
+            "id": 611,
+            "code": "MGT60040",
+            "name": "Management Analysis and Problem Solving",
+            "term_id": 308,
+            "term_name": "2025 MAR T1",
+            "term_code": "2025_MAR_T1"
+        },
+        {
+            "id": 45,
+            "code": "BUS80017",
+            "name": "Quantitative Research Methods",
+            "term_id": 308,
+            "term_name": "2025 MAR T1",
+            "term_code": "2025_MAR_T1"
+        },
+        {
+            "id": 816,
+            "code": "COS60008",
+            "name": "Introduction to Data Science",
+            "term_id": 309,
+            "term_name": "2025 MAR T1 M",
+            "term_code": "2025_MAR_T1_M"
+        },
+        {
+            "id": 811,
+            "code": "ICT60001",
+            "name": "Operating System Management",
+            "term_id": 309,
+            "term_name": "2025 MAR T1 M",
+            "term_code": "2025_MAR_T1_M"
+        },
+        {
+            "id": 896,
+            "code": "COS60010",
+            "name": "Technology Inquiry Project",
+            "term_id": 309,
+            "term_name": "2025 MAR T1 M",
+            "term_code": "2025_MAR_T1_M"
+        },
+        {
+            "id": 817,
+            "code": "COS80023",
+            "name": "Big Data",
+            "term_id": 311,
+            "term_name": "2025 MAY T2 M",
+            "term_code": "2025_MAY_T2_M"
+        },
+        {
+            "id": 894,
+            "code": "COS80001",
+            "name": "Cloud Engineering",
+            "term_id": 311,
+            "term_name": "2025 MAY T2 M",
+            "term_code": "2025_MAY_T2_M"
+        },
+        {
+            "id": 803,
+            "code": "COS60004",
+            "name": "Creating Web Applications",
+            "term_id": 311,
+            "term_name": "2025 MAY T2 M",
+            "term_code": "2025_MAY_T2_M"
+        },
+        {
+            "id": 805,
+            "code": "COS60009",
+            "name": "Data Management for the Big Data Age",
+            "term_id": 311,
+            "term_name": "2025 MAY T2 M",
+            "term_code": "2025_MAY_T2_M"
+        },
+        {
+            "id": 899,
+            "code": "COS80029",
+            "name": "Technology Application Project",
+            "term_id": 311,
+            "term_name": "2025 MAY T2 M",
+            "term_code": "2025_MAY_T2_M"
+        },
+        {
+            "id": 898,
+            "code": "COS70008",
+            "name": "Technology Innovation Research and Project",
+            "term_id": 311,
+            "term_name": "2025 MAY T2 M",
+            "term_code": "2025_MAY_T2_M"
+        },
+        {
+            "id": 896,
+            "code": "COS60010",
+            "name": "Technology Inquiry Project",
+            "term_id": 311,
+            "term_name": "2025 MAY T2 M",
+            "term_code": "2025_MAY_T2_M"
+        },
+        {
+            "id": 247,
+            "code": "FIN80005",
+            "name": "Corporate Financial Management",
+            "term_id": 312,
+            "term_name": "2025 MAY T2",
+            "term_code": "2025_MAY_T2"
+        },
+        {
+            "id": 193,
+            "code": "ECO80001",
+            "name": "Economics",
+            "term_id": 312,
+            "term_name": "2025 MAY T2",
+            "term_code": "2025_MAY_T2"
+        },
+        {
+            "id": 434,
+            "code": "HRM70011",
+            "name": "Ethics and Governance",
+            "term_id": 312,
+            "term_name": "2025 MAY T2",
+            "term_code": "2025_MAY_T2"
+        },
+        {
+            "id": 517,
+            "code": "MKT60010",
+            "name": "Marketing Management",
+            "term_id": 312,
+            "term_name": "2025 MAY T2",
+            "term_code": "2025_MAY_T2"
+        },
+        {
+            "id": 250,
+            "code": "FSB10031",
+            "name": "Economics",
+            "term_id": 345,
+            "term_name": "2025 MAY S1 F",
+            "term_code": "2025_MAY_S1_F"
+        },
+        {
+            "id": 237,
+            "code": "FCT10010",
+            "name": "Information Technology",
+            "term_id": 345,
+            "term_name": "2025 MAY S1 F",
+            "term_code": "2025_MAY_S1_F"
+        },
+        {
+            "id": 257,
+            "code": "FSE10023",
+            "name": "Linear Algebra",
+            "term_id": 345,
+            "term_name": "2025 MAY S1 F",
+            "term_code": "2025_MAY_S1_F"
+        },
+        {
+            "id": 262,
+            "code": "FST10013",
+            "name": "Multimedia",
+            "term_id": 345,
+            "term_name": "2025 MAY S1 F",
+            "term_code": "2025_MAY_S1_F"
+        }
+    ],
+    "term_mappings": {
+        "DDD10001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDD30018": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDA221": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDD20022": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDD30028": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBC121": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ACC30008": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBB111": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "BCH30003": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSD213": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS20083": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBA331": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "FIN30020": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "EEE30001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ACC30009": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "BIO30009": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS40007": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "INB20012": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ACC30010": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MPU2133": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MPU3143": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CSM80015": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DCO20001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "BUS30032": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "INF10024": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "BUS10014": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBL233": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MDA20028": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MGT20008": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MTH10012": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CHE10001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "EEE20006": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSB30014": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSD221": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS20019": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBC311": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDD30047": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDD30048": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ACC20013": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS10003": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS10004": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS30049": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS40005": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DCO10001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "BIO10001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSB10003": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSD215": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSD225": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSD126": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSB20004": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSB30004": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSD112": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSD122": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSB20005": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MKT20025": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MGT10009": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DEC223": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MDA10018": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "RME30002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MEE30002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSB10013": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSB20003": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "BUS10015": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBB311": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CSS303": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS10022": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS20031": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "EDU60014": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MEE20007": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DCO30002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CVE30002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "EDU60005": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DCO10002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "HRM30012": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDA312": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDM20003": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDD30021": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CSS102": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "HRM20016": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBE211": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ECO10005": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "EEE30002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "PHY40001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "PHY10001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CEE20005": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSD114": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MME40001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MME30002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ENG10002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ENG10003": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CSM80006": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSB11001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ENG20009": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ENG30002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "TNE30018": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "SOC10005": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ENV30001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CEE30008": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ENV30003": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CSM80016": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "FIN20016": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MGT10010": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "EAT40003": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "EAT40004": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ENG40001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ENG40003": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ENG40002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ENG40004": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBA132": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBA232": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ACC10007": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ACC10008": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "FIN20014": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "FIN30014": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "FIN10002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "FIN30021": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "PEH20002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "STA10003": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS20015": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBA233": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBA231": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CSS103": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBI211": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CVE40001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "INB20009": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "INB30025": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MDA10008": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "NPS30004": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "HRM10004": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ENG10001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ICT10022": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ICT30017": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ENT10005": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDA214": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDM10005": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DEC222": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "BIO20006": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBC212": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "EEE40002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MKT20021": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSB30017": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MPU3273": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MPU2273": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS30018": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDA213": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS30043": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "INB10002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "TNE20003": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBA134": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS30019": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBA335": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "BCH20002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSB10002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MEE40050": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CEE20001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDA112": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSB10001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSB20006": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDA121": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDA111": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBB221": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MDA10001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS10009": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBA334": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBF111": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "SWE30011": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS30015": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CSS206": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "LAW20019": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "LAW30005": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MGT30008": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ENT20006": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MTH10013": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MEE30005": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MEE40003": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ACC20007": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "FIN30016": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MEE30001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBM121": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MKT20031": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MKT10009": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MKT20019": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MKT30016": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSD111": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSD121": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MDA20026": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDM30001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDM30005": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDA311": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDD30022": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "EDU60001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "TNE10005": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "TNE20002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "TNE10006": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS20007": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MGT20007": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DCO10003": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MPU2183": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MPU3183": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MPU3193": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MAT4101": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DCO10004": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DEC224": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBC111": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBE221": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CEE30007": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CEE30004": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CEE30006": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CEE40002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CEE40004": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CSM80013": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CSS101": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CSS201": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDD30013": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CEE30002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DBA111": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "EEE40015": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "QSD229": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CVE80001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MDA30012": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MME80001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "RME40003": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DEC213": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "TNE30012": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS30047": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DEC211": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MDA30021": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "SWE30003": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "SWE40006": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "SWE40002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MTH20010": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MGT30005": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CVE40002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MEE20004": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "BUS30031": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "INB30020": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CSS202": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ACC30005": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS10025": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "BIO20002": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DEC122": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MEE20001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CVE20001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CVE30003": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DCO10005": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DCO20009": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDM10006": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DEC312": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DEC111": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CVE30001": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "ICT20025": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "MEE20008": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "DDA222": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "CVE20008": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "COS10026": [
+            {
+                "term_id": 303,
+                "term_name": "2025 MAR S1",
+                "term_code": "2025_MAR_S1"
+            }
+        ],
+        "FSB10030": [
+            {
+                "term_id": 304,
+                "term_name": "2025 MAR S1 F",
+                "term_code": "2025_MAR_S1_F"
+            }
+        ],
+        "FSE10022": [
+            {
+                "term_id": 304,
+                "term_name": "2025 MAR S1 F",
+                "term_code": "2025_MAR_S1_F"
+            }
+        ],
+        "FSE10021": [
+            {
+                "term_id": 304,
+                "term_name": "2025 MAR S1 F",
+                "term_code": "2025_MAR_S1_F"
+            }
+        ],
+        "FCL10003": [
+            {
+                "term_id": 304,
+                "term_name": "2025 MAR S1 F",
+                "term_code": "2025_MAR_S1_F"
+            }
+        ],
+        "FSD10040": [
+            {
+                "term_id": 304,
+                "term_name": "2025 MAR S1 F",
+                "term_code": "2025_MAR_S1_F"
+            }
+        ],
+        "FSD10041": [
+            {
+                "term_id": 304,
+                "term_name": "2025 MAR S1 F",
+                "term_code": "2025_MAR_S1_F"
+            }
+        ],
+        "FSB10031": [
+            {
+                "term_id": 304,
+                "term_name": "2025 MAR S1 F",
+                "term_code": "2025_MAR_S1_F"
+            },
+            {
+                "term_id": 345,
+                "term_name": "2025 MAY S1 F",
+                "term_code": "2025_MAY_S1_F"
+            }
+        ],
+        "FCL10001": [
+            {
+                "term_id": 304,
+                "term_name": "2025 MAR S1 F",
+                "term_code": "2025_MAR_S1_F"
+            }
+        ],
+        "FCT10010": [
+            {
+                "term_id": 304,
+                "term_name": "2025 MAR S1 F",
+                "term_code": "2025_MAR_S1_F"
+            },
+            {
+                "term_id": 345,
+                "term_name": "2025 MAY S1 F",
+                "term_code": "2025_MAY_S1_F"
+            }
+        ],
+        "FSE10024": [
+            {
+                "term_id": 304,
+                "term_name": "2025 MAR S1 F",
+                "term_code": "2025_MAR_S1_F"
+            }
+        ],
+        "FCE10020": [
+            {
+                "term_id": 304,
+                "term_name": "2025 MAR S1 F",
+                "term_code": "2025_MAR_S1_F"
+            }
+        ],
+        "FSE10023": [
+            {
+                "term_id": 304,
+                "term_name": "2025 MAR S1 F",
+                "term_code": "2025_MAR_S1_F"
+            },
+            {
+                "term_id": 345,
+                "term_name": "2025 MAY S1 F",
+                "term_code": "2025_MAY_S1_F"
+            }
+        ],
+        "FSB10033": [
+            {
+                "term_id": 304,
+                "term_name": "2025 MAR S1 F",
+                "term_code": "2025_MAR_S1_F"
+            }
+        ],
+        "FST10012": [
+            {
+                "term_id": 304,
+                "term_name": "2025 MAR S1 F",
+                "term_code": "2025_MAR_S1_F"
+            }
+        ],
+        "FST10013": [
+            {
+                "term_id": 304,
+                "term_name": "2025 MAR S1 F",
+                "term_code": "2025_MAR_S1_F"
+            },
+            {
+                "term_id": 345,
+                "term_name": "2025 MAY S1 F",
+                "term_code": "2025_MAY_S1_F"
+            }
+        ],
+        "FST10014": [
+            {
+                "term_id": 304,
+                "term_name": "2025 MAR S1 F",
+                "term_code": "2025_MAR_S1_F"
+            }
+        ],
+        "BUS80021": [
+            {
+                "term_id": 308,
+                "term_name": "2025 MAR T1",
+                "term_code": "2025_MAR_T1"
+            }
+        ],
+        "MGT80002": [
+            {
+                "term_id": 308,
+                "term_name": "2025 MAR T1",
+                "term_code": "2025_MAR_T1"
+            }
+        ],
+        "INF80042": [
+            {
+                "term_id": 308,
+                "term_name": "2025 MAR T1",
+                "term_code": "2025_MAR_T1"
+            }
+        ],
+        "MGT80005": [
+            {
+                "term_id": 308,
+                "term_name": "2025 MAR T1",
+                "term_code": "2025_MAR_T1"
+            }
+        ],
+        "MGT60040": [
+            {
+                "term_id": 308,
+                "term_name": "2025 MAR T1",
+                "term_code": "2025_MAR_T1"
+            }
+        ],
+        "BUS80017": [
+            {
+                "term_id": 308,
+                "term_name": "2025 MAR T1",
+                "term_code": "2025_MAR_T1"
+            }
+        ],
+        "COS60008": [
+            {
+                "term_id": 309,
+                "term_name": "2025 MAR T1 M",
+                "term_code": "2025_MAR_T1_M"
+            }
+        ],
+        "ICT60001": [
+            {
+                "term_id": 309,
+                "term_name": "2025 MAR T1 M",
+                "term_code": "2025_MAR_T1_M"
+            }
+        ],
+        "COS60010": [
+            {
+                "term_id": 309,
+                "term_name": "2025 MAR T1 M",
+                "term_code": "2025_MAR_T1_M"
+            },
+            {
+                "term_id": 311,
+                "term_name": "2025 MAY T2 M",
+                "term_code": "2025_MAY_T2_M"
+            }
+        ],
+        "COS80023": [
+            {
+                "term_id": 311,
+                "term_name": "2025 MAY T2 M",
+                "term_code": "2025_MAY_T2_M"
+            }
+        ],
+        "COS80001": [
+            {
+                "term_id": 311,
+                "term_name": "2025 MAY T2 M",
+                "term_code": "2025_MAY_T2_M"
+            }
+        ],
+        "COS60004": [
+            {
+                "term_id": 311,
+                "term_name": "2025 MAY T2 M",
+                "term_code": "2025_MAY_T2_M"
+            }
+        ],
+        "COS60009": [
+            {
+                "term_id": 311,
+                "term_name": "2025 MAY T2 M",
+                "term_code": "2025_MAY_T2_M"
+            }
+        ],
+        "COS80029": [
+            {
+                "term_id": 311,
+                "term_name": "2025 MAY T2 M",
+                "term_code": "2025_MAY_T2_M"
+            }
+        ],
+        "COS70008": [
+            {
+                "term_id": 311,
+                "term_name": "2025 MAY T2 M",
+                "term_code": "2025_MAY_T2_M"
+            }
+        ],
+        "FIN80005": [
+            {
+                "term_id": 312,
+                "term_name": "2025 MAY T2",
+                "term_code": "2025_MAY_T2"
+            }
+        ],
+        "ECO80001": [
+            {
+                "term_id": 312,
+                "term_name": "2025 MAY T2",
+                "term_code": "2025_MAY_T2"
+            }
+        ],
+        "HRM70011": [
+            {
+                "term_id": 312,
+                "term_name": "2025 MAY T2",
+                "term_code": "2025_MAY_T2"
+            }
+        ],
+        "MKT60010": [
+            {
+                "term_id": 312,
+                "term_name": "2025 MAY T2",
+                "term_code": "2025_MAY_T2"
+            }
+        ]
+    },
+    "total_courses": 295,
+    "unique_courses": 290,
+    "terms": [
+        {
+            "id": 303,
+            "name": "2025 MAR S1",
+            "code": "2025_MAR_S1"
+        },
+        {
+            "id": 304,
+            "name": "2025 MAR S1 F",
+            "code": "2025_MAR_S1_F"
+        },
+        {
+            "id": 308,
+            "name": "2025 MAR T1",
+            "code": "2025_MAR_T1"
+        },
+        {
+            "id": 309,
+            "name": "2025 MAR T1 M",
+            "code": "2025_MAR_T1_M"
+        },
+        {
+            "id": 311,
+            "name": "2025 MAY T2 M",
+            "code": "2025_MAY_T2_M"
+        },
+        {
+            "id": 312,
+            "name": "2025 MAY T2",
+            "code": "2025_MAY_T2"
+        },
+        {
+            "id": 345,
+            "name": "2025 MAY S1 F",
+            "code": "2025_MAY_S1_F"
+        }
+    ]
 }

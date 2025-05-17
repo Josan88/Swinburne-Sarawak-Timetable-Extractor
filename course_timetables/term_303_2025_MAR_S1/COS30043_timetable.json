@@ -1,0 +1,293 @@
+{
+    "DataList": [
+        {
+            "Id": 0,
+            "EventDate": "2025-05-12T00:00:00",
+            "EventStartTime": "2025-05-12T08:00:00",
+            "EventEndTime": "2025-05-12T10:00:00",
+            "EventDescription": "COS30019 - LE1 - 01, Joel Chia Ming Than; B006 - 03/03 to 04/07, 04/21 to 05/26",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-12T00:00:00",
+            "EventStartTime": "2025-05-12T10:00:00",
+            "EventEndTime": "2025-05-12T12:00:00",
+            "EventDescription": "TNE20003 - LA1 - 03, Linda Lin Juan Wong; E409 - 03/03 to 04/07, 04/21 to 05/26",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-12T00:00:00",
+            "EventStartTime": "2025-05-12T11:00:00",
+            "EventEndTime": "2025-05-12T12:00:00",
+            "EventDescription": "INB10002 - LE1 - 01, Rodney ThiamHock Lim; G407 - 03/03 to 04/07, 04/21 to 05/26",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-12T00:00:00",
+            "EventStartTime": "2025-05-12T16:00:00",
+            "EventEndTime": "2025-05-12T18:00:00",
+            "EventDescription": "QSB30017 - LE1 - 01, Elizabeth Neliana Nelson, Jeremy Chun Yaw Lu; B516 - 03/03 to 04/07, 04/21 to 05/26",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-13T00:00:00",
+            "EventStartTime": "2025-05-13T08:30:00",
+            "EventEndTime": "2025-05-13T10:30:00",
+            "EventDescription": "DBA134 - LE1 - 01, Nivakan Sritharan; G708 - 03/04 to 04/08, 04/22 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-13T00:00:00",
+            "EventStartTime": "2025-05-13T10:00:00",
+            "EventEndTime": "2025-05-13T11:00:00",
+            "EventDescription": "INB10002 - TU1 - 01, Rodney ThiamHock Lim; B505 - 03/04 to 04/08, 04/22 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-13T00:00:00",
+            "EventStartTime": "2025-05-13T13:00:00",
+            "EventEndTime": "2025-05-13T14:30:00",
+            "EventDescription": "MPU2273 - LE1 - 01, James ChunHan Loi; L001 - 03/04 to 04/08, 04/29 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-13T00:00:00",
+            "EventStartTime": "2025-05-13T13:00:00",
+            "EventEndTime": "2025-05-13T15:00:00",
+            "EventDescription": "COS30043 - LE1 - 01, AiLing Choo; B006 - 03/04 to 04/08, 04/22 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-13T00:00:00",
+            "EventStartTime": "2025-05-13T13:30:00",
+            "EventEndTime": "2025-05-13T15:30:00",
+            "EventDescription": "DDA213 - LE1 - 01, Raymond Ik Chiang Lee; G604 - 03/04 to 04/08, 04/22 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-13T00:00:00",
+            "EventStartTime": "2025-05-13T14:30:00",
+            "EventEndTime": "2025-05-13T16:00:00",
+            "EventDescription": "MPU2273 - LE2 - 01, James ChunHan Loi; L001 - 03/04 to 04/08, 04/29 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-13T00:00:00",
+            "EventStartTime": "2025-05-13T15:00:00",
+            "EventEndTime": "2025-05-13T17:00:00",
+            "EventDescription": "COS30018 - LE1 - 01, Sue Han Lee; B213B214 - 03/04 to 04/08, 04/22 to 05/27",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-14T00:00:00",
+            "EventStartTime": "2025-05-14T08:00:00",
+            "EventEndTime": "2025-05-14T10:00:00",
+            "EventDescription": "DBA134 - TU1 - 01, Nivakan Sritharan; G709 - 03/05 to 04/09, 04/23 to 05/28",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-14T00:00:00",
+            "EventStartTime": "2025-05-14T10:00:00",
+            "EventEndTime": "2025-05-14T12:00:00",
+            "EventDescription": "TNE20003 - LE1 - 01, Kelvin Sheng Chek Yong; B005 - 03/12 to 04/09, 04/23; G401 - 03/05",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-14T00:00:00",
+            "EventStartTime": "2025-05-14T18:00:00",
+            "EventEndTime": "2025-05-14T21:00:00",
+            "EventDescription": "MPU3273 - LE1 - 01, James ChunHan Loi; L001 - 03/05 to 04/09, 04/30 to 05/28",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-14T00:00:00",
+            "EventStartTime": "2025-05-14T18:30:00",
+            "EventEndTime": "2025-05-14T20:30:00",
+            "EventDescription": "COS30043 - TU1 - 01, Isaac Yung Shen Goh; G401 - 03/05 to 04/09, 04/23 to 05/28",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-15T00:00:00",
+            "EventStartTime": "2025-05-15T13:00:00",
+            "EventEndTime": "2025-05-15T15:00:00",
+            "EventDescription": "COS30018 - TU1 - 01, Jerad Zherui Liaw, Sue Han Lee; B213B214 - 03/06 to 04/10, 04/24 to 05/29",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-15T00:00:00",
+            "EventStartTime": "2025-05-15T15:00:00",
+            "EventEndTime": "2025-05-15T17:00:00",
+            "EventDescription": "TNE20003 - LA1 - 02, Kelvin Sheng Chek Yong; E409 - 03/06 to 04/10, 04/24 to 05/29",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-15T00:00:00",
+            "EventStartTime": "2025-05-15T18:00:00",
+            "EventEndTime": "2025-05-15T21:00:00",
+            "EventDescription": "MPU3273 - LE1 - 02, James ChunHan Loi; G001 - 03/06 to 04/10, 05/01 to 05/29",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-16T00:00:00",
+            "EventStartTime": "2025-05-16T08:00:00",
+            "EventEndTime": "2025-05-16T10:00:00",
+            "EventDescription": "DDA213 - LA1 - 01, Raymond Ik Chiang Lee; A201 - 03/07 to 04/11, 04/25 to 05/30",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-16T00:00:00",
+            "EventStartTime": "2025-05-16T08:00:00",
+            "EventEndTime": "2025-05-16T10:00:00",
+            "EventDescription": "TNE20003 - LA1 - 01, Linda Lin Juan Wong; E409 - 03/07 to 04/11, 04/25 to 05/30",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-16T00:00:00",
+            "EventStartTime": "2025-05-16T09:00:00",
+            "EventEndTime": "2025-05-16T12:00:00",
+            "EventDescription": "QSB30017 - TU1 - 01, Elizabeth Neliana Nelson, Jeremy Chun Yaw Lu; B516 - 03/07 to 04/11, 04/25 to 05/30",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-16T00:00:00",
+            "EventStartTime": "2025-05-16T10:00:00",
+            "EventEndTime": "2025-05-16T11:00:00",
+            "EventDescription": "INB10002 - TU1 - 02, Rodney ThiamHock Lim; A309 - 03/07 to 04/11, 04/25 to 05/30",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-16T00:00:00",
+            "EventStartTime": "2025-05-16T10:00:00",
+            "EventEndTime": "2025-05-16T12:00:00",
+            "EventDescription": "COS30019 - TU1 - 01, Alec Vince Gonzales Abuan, Joel Chia Ming Than, Joel Chia Ming Than, Alec Vince Gonzales Abuan; G407 - 03/07 to 04/11, 04/25 to 05/30",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-16T00:00:00",
+            "EventStartTime": "2025-05-16T10:00:00",
+            "EventEndTime": "2025-05-16T12:00:00",
+            "EventDescription": "DDA213 - LA1 - 02, Raymond Ik Chiang Lee; A201 - 03/07 to 04/11, 04/25 to 05/30",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-16T00:00:00",
+            "EventStartTime": "2025-05-16T10:00:00",
+            "EventEndTime": "2025-05-16T12:00:00",
+            "EventDescription": "TNE20003 - LA1 - 04, Kelvin Sheng Chek Yong; E409 - 03/07 to 04/11, 04/25 to 05/30",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        },
+        {
+            "Id": 0,
+            "EventDate": "2025-05-16T00:00:00",
+            "EventStartTime": "2025-05-16T18:30:00",
+            "EventEndTime": "2025-05-16T20:30:00",
+            "EventDescription": "COS30043 - TU1 - 02, Isaac Yung Shen Goh; G401 - 03/07 to 04/11, 04/25 to 05/30",
+            "CourseId": 0,
+            "TermId": 0,
+            "SubComponentId": 0,
+            "ComponentGroupName": null
+        }
+    ],
+    "ServiceResult": 0,
+    "ErrorMessage": null,
+    "ExtendedToken": "f3ksI93w7dangJn4GR1JUwB6HenX3YLfWC6ZDF65rzkM0s+QoFDmv7+K/EJ2EcSmiN6dnCDPc6ZYdN4MXF4T1ZTQqDObHDvVaZb27k3v+yyJYtEFkCcYIikTU3TkV10Gc7uuz4UqPe/8mn7utGtbCSB7gMAsLpjuhL7cvpbioH3Vmx3AevjN7zw9HDc4c7UcqG3TLcXxNCeQz9nKBvPKJCVikkIP8uKSgQlhOdCRV5HGpAhKpVTq3QPWBSS0bqCi4OG54RWhe8YUjnjy05d6HUP5CL9zhRVLEfon4ij7LUljR8anGzDvzjkdKdNFnXxrDsOqprwar4df9baHZjaxIok+uEM1vIC+8owCABU9kgSa1lk/FHVBRjDAfvtYygHtNw3/dnxlvjl3Q4vM/Ur8Ye00+DJQmK6FUlW0XHJSwfazvsiCyhGQgVcZFCZ9avzl2RxfKq4owV31X/xzkiLhdWVz59wkl6BR3hjD1YAiGuHW8y304kKeVRiiwodHxm4mil1oN+PPYdIhq5tekQ353MxeKWpJAkaTRpcvwgzDIj9hBuuw2cCp1jIVyf5sXFSvKawxzxFlSfjSC8TDn3Hcbw+eEXJaHZh/4CAz76VUuqAVvH6eYe7lHCUQQJCu4ACeFwIcjL/WzXNW5pGsFoalmKDsfUYoFQ52F/HR+r14PUZY2AOU2xMN7094e18vv8JvsRepJSVXRdQRJs1InjkOgaEl4fpZOJi1hlHL9+DIrX2qB2k2N3RT2ZPonlCxCfMsIbb5kn1YVteJg1bQmqJW/AN+xo63+UPvsSx0HAaqk3AiDcCcYk+NLcy69SuKaQPiFgh6Td7KAcCL81PwHnqIJ8sZnf1q8O6syhFCh589FTmK75FsNZXwkOr1LZIZ0ad4SQJz8Yb/2pO1AzEF91jpbdI7CiSKuoE12Y/GH4Ywms1zW2eJUul6K97rZGrnTWUWGH40GrPQKKXEsJ0/uF8bekqb3XNXJuC7ECSwGdfq2KRxlMSWSvUvZ+TyCIco+E0U5ai1qekEUaEo6Rp0FskpN5H7SqqPoFL4E5y6JHLWueURNmlXcOgljpqzmX6iRJh3HORAaMcHucUc7jnTUNZAn5dD83rOlBAlKutrA1b6dRyPga07Ilh0wXJVZHpK/Kxw/Z2Yuqj/JLPxwbVUp+oLyrye1zHW6bh4VJRbze0U6zkZkPl28cXSnjZxgovbJSB/B5po8YeM2PXN2s1lEHSUxO6nj6x8qZYt84nRnNNZzZrIwgYYa3aZP/LjIfp7xwKOQHC77ZSnra3Tz4nRRtgXJfqMFysCK74ireh37snhDnJt3FaGXCL0d7U5k7VFhecPB8y/70omVM+TwvaB+56NJ0RHPeogJcJAmOTpzXmUfJuRU+CBFr0ZATQ4zkq8IHntmNo7Fm0s8bGOX2mPQctgaR/WWtQkF/HHKNtFpHMIt4Fa8nrPS4a6v+W8wEJEC0LOG+xEY/6UQ7MjAxTEfW3sFTjuD5quLCfy3red01p5VW1Qfv5MPRaJgDWl6vIQ6Fg2HAqVnxckmjUqxoKo76L0Jvch2bZ1Ncbi32I5cvqmUBOlJf/QSQFqWcXd5GzslyvTV1QxAzs032jIq8JGT8ZyclhuQjb3hQAS1ANf+6YseLCMxlIwIdLMqxppAEUJC0TeSQoyVI8gT5pYwJ/VfFD1pE+P8WoqIwyq4a6Y0L5DkdAanGGGk8xykHqboOIwbXlrJI7N2WC2x48Tv0ULUNEjyatE076Hc9rawdGzMQI8HvwaOoG90I2QE5FTRiYq7ttPa+e4b2UwMuTqupml1YwTUk4oVYe9bkC/zOB6Th8oB4hMvQdpV/U0rOQXN9t32PFcEHeWEdm8K55qJbsaWFQUYaUrix4Ig47VjIPZ7WUL42GvhrBqkZStdmwP33sKIowGOboPuqA+ojMxBJcyeYdbaQ=="
+}
